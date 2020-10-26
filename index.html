@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>寻向网站</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/main.css" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    p {
+      font-size: 1.25rem;
+      /* font-family: 'ZCOOL XiaoWei', serif; */
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      /* font-family: 'ZCOOL XiaoWei', serif; */
+      /*font TODO in css or here*/
+    }
+
+    a,
+    .brand {
+      /* font-family: 'ZCOOL XiaoWei', serif;
+      font-size: 1.35rem; */
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #000000 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar nav-bg navbar-expand-lg navbar-light scrolling-navbar">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="">
+          <img src="img/logo.png" width=140px height=70px alt="XX logo">
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#blocks">寻向板块</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achivements">寻向成就</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutteam">关于团队</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactus">联系我们</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">关于我们
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1><b>寻向，</b></h1>
+          <br>
+          <h2 id="typing-text"></h2>
+        </div>
+        <div class="col-lg-6">
+          <img src="img/mainbg.jpg" class="main-bg" alt="test bg">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Main layout-->
+  <main>
+    <div id="mySidenav" class="align">
+      <a data-toggle="modal" data-target="#contactinfo" id="about">关注我们 <i class="fab fa-weixin mr-2"></i></a>
+      <!-- <a href="#" id="blog">Blog</a>
+      <a href="#" id="projects">Projects</a>
+      <a href="#" id="contact">Contact</a> -->
+    </div>
+    <div class="modal fade" id="contactinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">寻向微信公众号 <i class="fab fa-weixin mr-2"></i></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="img/qrcode.jpg" alt="QR code">
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!--Section: Main info-->
+      <br><br><br>
+      <section class="mt-5 wow fadeIn principle-block">
+        <!--Grid row-->
+        <div class="row principle-block">
+          <div class="col-1">
+            <!-- placeholder -->
+          </div>
+          <div class="col-2 text-center">
+            <div class="container text-center">
+              <!-- <i class="col-6 fas fa-arrows-alt fa-2x indigo-text"></i> -->
+              <img src="img/heart.png" style="margin-bottom: 10px;" alt="heart">
+            </div>
+            <div class="container text-center">
+              <h3>公益</h3>
+            </div>
+            <p class="grey-text">
+              寻向的目的来源于公益
+              <a class="col-6" data-toggle="collapse" href="#duoyuan" role="button" aria-expanded="false" aria-controls="duoyuan">
+                <i class="fas fa-angle-down rotate-icon indigo-text"></i>
+              </a>
+            </p>
+            <div class="collapse" id="duoyuan">
+              <div class="card card-body">
+                公益是寻向的出发点。 我们剔除商业元素，只是单纯地分享信息，不会让利益左右我们的初心，
+                而是单纯地为留学生提供帮助，和这个群体站在一起。在这里的每个人都怀揣着想要帮助别人的信念，他们的分享和帮助也格外纯粹。
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2 text-center">
+            <div class="container text-center">
+              <!-- <i class="col-6 fas fa-users fa-2x indigo-text"></i> -->
+              <img src="img/passon.png" style="margin-bottom: 10px;" alt="heart">
+            </div>
+            <div class="container text-center">
+              <h3>多元</h3>
+            </div>
+            <p class="grey-text">
+              寻向拒绝对成功的单一定义
+              <a class="col-6" data-toggle="collapse" href="#chuancheng" role="button" aria-expanded="false" aria-controls="duoyuan">
+                <i class="fas fa-angle-down rotate-icon indigo-text"></i>
+              </a>
+            </p>
+            <div class="collapse" id="chuancheng">
+              <div class="card card-body">
+                寻向拒绝对成功的单一定义，努力想要为留学生展示关于未来的无数种可能性。在这里，不同人生阶段和方向领域的寻向人分享自己的知识见解，道路选择，他们的讲述帮助后来人找到方向，他们的故事给予后来人选择的勇气。
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2 text-center">
+            <div class="container text-center">
+              <!-- <i class="col-6 fas fa-heart fa-2x indigo-text"></i> -->
+              <img src="img/share.png" style="margin-bottom: 10px;" alt="heart">
+            </div>
+            <div class="container text-center">
+              <h3>传承</h3>
+            </div>
+            <p class="grey-text">
+              寻向连接在校生和在职的前辈
+              <a class="col-6" data-toggle="collapse" href="#gongyi" role="button" aria-expanded="false" aria-controls="duoyuan">
+                <i class="fas fa-angle-down rotate-icon indigo-text"></i>
+              </a>
+            </p>
+            <div class="collapse" id="gongyi">
+              <div class="card card-body">
+                寻向连接在校生和在职的前辈，让信息和经验能跨越校园和职场的界限，自由地流动。 同时，在校生受到帮助，找到方向并且成功进入职场后，再将同样的帮助传递给自己的学弟学妹，让信息和经验在留学生中不断传承。
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2 text-center">
+            <div class="container text-center">
+              <!-- <i class="col-6 fas fa-hands-helping fa-2x indigo-text"></i> -->
+              <img src="img/solidarity.png" style="margin-bottom: 10px;" alt="heart">
+            </div>
+            <div class="container text-center">
+              <h3>分享</h3>
+            </div>
+            <p class="grey-text">
+              分享是我们寻向的DNA
+              <a class="col-6" data-toggle="collapse" href="#tuanjie" role="button" aria-expanded="false" aria-controls="duoyuan">
+                <i class="fas fa-angle-down rotate-icon indigo-text"></i>
+              </a>
+            </p>
+            <div class="collapse" id="tuanjie">
+              <div class="card card-body">
+                分享是寻向的DNA。无论是干货，资源，通关秘籍，还是想法，思考，心路历程，在这里都是最被期待的声音；
+                无论你是刚拿到第一份实习的学弟学妹，还是驰骋职场江湖多年的留学前辈，寻向都期待着你的分享。
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2 text-center">
+            <div class="container text-center">
+              <!-- <i class="col-6 fas fa-share-square fa-2x indigo-text"></i> -->
+              <img src="img/share.png" style="margin-bottom: 10px;" alt="heart">
+            </div>
+            <div class="container text-center">
+              <h3>团结</h3>
+            </div>
+            <p class="grey-text">
+              寻向根植于留学生这个群体
+              <a class="col-6" data-toggle="collapse" href="#fenxiang" role="button" aria-expanded="false" aria-controls="duoyuan">
+                <i class="fas fa-angle-down rotate-icon indigo-text"></i>
+              </a>
+            </p>
+            <div class="collapse" id="fenxiang">
+              <div class="card card-body">
+                寻向根植于留学生这个群体，我们认为留学一路有不少的艰辛坎坷，唯有团结互助，才能让这个群体在异国他乡有更好的未来。寻向想要做一股绳, 将校园中,职场中的中国人团结在一起, 发挥更大的能量。
+              </div>
+            </div>
+          </div>
+          <div class="col-1">
+            <!-- placeholder -->
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+
+      <!--Section: Main info-->
+      <hr class="my-5">
+
+      <section class="mt-5 wow fadeIn" id="blocks">
+        <h2 class="my-5 h2">寻向六大板块</h2>
+        <div class="row">
+
+          <div class="col-6">
+            <!-- <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h2 class="text-left flip-card-front-content" style="margin-left: 20px;">寻向笔记</h2>
+                  <div class="row">
+                    <div class="col-6">
+                      <p class="text-left" style="margin-left: 20px; font-size: 1rem;">记录与讲述留学生梦想与选择的笔记本</p>
+                    </div>
+                    <div class="col-6">
+                      <img src="img/notebook.png" style="width:130px;height:130px;" alt="notebook">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p style="margin-left: 30px; margin-bottom: 20px; font-size: 0.8rem;">了解更多</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <img src="img/1.svg" alt="Avatar" style="width:200px;height:200px;">
+                </div>
+              </div>
+            </div> -->
+            <div class="card">
+              <div class="card-body">
+                <h2 style="margin-top: 10px;">寻向笔记</h2>
+                <img src="img/1line.png" style="position: relative; top: -10px;"alt="line1">
+                <div class="row">
+                  <div class="col-6">
+                    <p style="font-size: 1rem; margin-top: 15px;">记录与讲述留学生梦想与选择的笔记本</p>
+                    <br><br><br>
+                    <p style="font-size: 0.8rem; margin-top: 15px; color: grey;">了解更多</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/notebook.png" style="width:180px;height:180px;" alt="notebook">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <h2 style="margin-top: 10px;">寻向练习生</h2>
+                <img src="img/2line.png" style="position: relative; top: -10px;"alt="line2">
+                <div class="row">
+                  <div class="col-6">
+                    <p style="font-size: 1rem; margin-top: 15px;">帮助留学生成长与进阶的菁英社群</p>
+                    <br><br><br>
+                    <p style="font-size: 0.8rem; margin-top: 15px; color: grey;">了解更多</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/maskperson.png" style="width:200px;height:200px;" alt="maskperson">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/First row-->
+        <br>
+        <!--Second row-->
+        <div class="row">
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <h2 style="margin-top: 10px;">寻向行业</h2>
+                <img src="img/3line.png" style="position: relative; top: -10px;"alt="line3">
+                <div class="row">
+                  <div class="col-6">
+                    <p style="font-size: 1rem; margin-top: 15px;">记录与讲述留学生梦想与选择的笔记本</p>
+                    <br><br><br>
+                    <p style="font-size: 0.8rem; margin-top: 15px; color: grey;">了解更多</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/layers.png" style="width:200px;height:200px;" alt="layers">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <h2 style="margin-top: 10px;">寻向职场人</h2>
+                <img src="img/4line.png" style="position: relative; top: -10px;"alt="line4">
+                <div class="row">
+                  <div class="col-6">
+                    <p style="font-size: 1rem; margin-top: 15px;">讲留学后的中国年轻职场人凝聚在一起的社区</p>
+                    <br><br><br>
+                    <p style="font-size: 0.8rem; margin-top: 15px; color: grey;">了解更多</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/laptop.png" style="width:240px;height:180px;" alt="laptop">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/Second row-->
+        <br>
+        <!--Third row-->
+        <div class="row">
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <h2 style="margin-top: 10px;">寻向广场</h2>
+                <img src="img/5line.png" style="position: relative; top: -10px;"alt="line5">
+                <div class="row">
+                  <div class="col-6">
+                    <p style="font-size: 1rem; margin-top: 15px;">记录与讲述留学生梦想与选择的笔记本</p>
+                    <br><br><br>
+                    <p style="font-size: 0.8rem; margin-top: 15px; color: grey;">了解更多</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/jump.png" style="width:240px;height:180px;" alt="jump">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <div class="card-body">
+                <h2 style="margin-top: 10px;">寻向彼岸</h2>
+                <img src="img/6line.png" style="position: relative; top: -10px;"alt="line6">
+                <div class="row">
+                  <div class="col-6">
+                    <p style="font-size: 1rem; margin-top: 15px;">连接北美留学家庭的此岸和彼岸</p>
+                    <br><br><br><br>
+                    <p style="font-size: 0.8rem; margin-top: 15px; color: grey;">了解更多</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/lighthouse.png" style="width:280px;height:200px;" alt="lighthouse">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/Second row-->
+      </section>
+
+      <!--Section: Not enough-->
+      <br>
+      <hr class="mb-5">
+      <section class="mt-5 wow fadeIn" id="achivements">
+        <h2 class="my-5 h2">这些年来 我们做了...</h2>
+        <!-- <div class="container text-center">
+          <img src="img/qrcode.jpg" class="img-thumbnail" alt="QRcode" width="300" height="400">
+        </div> -->
+        <div class="row">
+          <div class="col-6">
+            <h1>这是88数据</h1>
+            <h1>这是1234数据</h1>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <img src="img/avatar1.png" height="100" width="100" alt="avatar1">
+              <div class="card mx-auto style=" width: 5rem;"">
+                <div class="card-body">
+                  仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
+                </div>
+              </div>
+            </div>
+            <br> <br>
+            <div class="row">
+              <div class="card mx-auto style=" width: 5rem;"">
+                <div class="card-body">
+                  仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
+                </div>
+              </div>
+              <img src="img/avatar2.png" height="100" width="100" alt="avatar1">
+            </div>
+            <br> <br>
+            <div class="row">
+              <img src="img/avatar3.png" height="100" width="100" alt="avatar1">
+              <div class="card mx-auto style=" width: 5rem;"">
+                <div class="card-body">
+                  仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section: Not enough-->
+      <br>
+      <hr class="mb-5">
+      <section class="mt-5 wow fadeIn" id="aboutteam">
+        <h2 class="my-5 h2 text-center">我们的团队</h2>
+        <!-- <div class="container text-center">
+          <img src="img/qrcode.jpg" class="img-thumbnail" alt="QRcode" width="300" height="400">
+        </div> -->
+        <div class="row">
+          <div class="col-2 text-center">
+            <img src="img/avatar1.png" height="100" width="100" alt="avatar1">
+            <div class="h4 text-center" style="margin-top: 15px;">
+              张一二
+            </div>
+            <div class="text-center">
+              寻向职位
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <img src="img/avatar2.png" height="100" width="100" alt="avatar1">
+            <div class="h4 text-center" style="margin-top: 15px;">
+              李二三
+            </div>
+            <div class="text-center">
+              寻向职位
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <img src="img/avatar3.png" height="100" width="100" alt="avatar1">
+            <div class="h4 text-center" style="margin-top: 15px;">
+              周六一
+            </div>
+            <div class="text-center">
+              寻向职位
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <img src="img/avatar4.png" height="100" width="100" alt="avatar1">
+            <div class="h4 text-center" style="margin-top: 15px;">
+              李三四
+            </div>
+            <div class="text-center">
+              寻向职位
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <img src="img/avatar1.png" height="100" width="100" alt="avatar1">
+            <div class="h4 text-center" style="margin-top: 15px;">
+              王五六
+            </div>
+            <div class="text-center">
+              寻向职位
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <img src="img/avatar2.png" height="100" width="100" alt="avatar1">
+            <div class="h4 text-center" style="margin-top: 15px;">
+              陈七八
+            </div>
+            <div class="text-center">
+              寻向职位
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <br> <br>
+          <button type="button" class="btn btn-info">加入我们</button>
+        </div>
+      </section>
+
+      <!--Section: Not enough-->
+      <br>
+      <hr class="mb-5">
+      <section class="mt-5 wow fadeIn" id="contactus">
+        <div class="row">
+          <h2 class="my-5 h2">联系我们</h2>
+          <img src="img/chat.png" height="50" width="50" style="margin-top: 40px; margin-left: 40px;" alt="chat icon">
+          <img src="img/email.png" height="50" width="50" style="margin-top: 40px; margin-left: 20px;" alt="email icon">
+        </div>
+        <div class="row">
+          <h3 style="margin-left: 20px; margin-right:50px;">合作</h3>
+          <p style="width: 80%; align: right;">如果你也是针对留学生的公益平台，生产对留学生个人和职业发展有极大帮助的精华内容，我们希望帮助你的平台成长，传播你的内容给更多留学生看到。</p>
+        </div>
+        <div class="row">
+          <h3 style="margin-left: 20px; margin-right:50px;">推广</h3>
+          <p style="width: 80%; align: right;">社群致力于拥有各种背景，各种行业，各种兴趣的年轻职场人提供人脉和知识。大家彼此之间相互分享，互相赋能。</p>
+        </div>
+        <div class="row">
+          <h3 style="margin-left: 20px; margin-right:50px;">建议</h3>
+          <p style="width: 80%; align: right;">如果你对寻向各个项目和产品有任何建议和疑问，请联系：</p>
+        </div>
+        <img src="img/logo.png" style="float: right" width=140px height=70px alt="XX logo">
+      </section>
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!-- <footer id="bottom" class="page-footer text-center font-small mt-4 wow fadeIn">
+    <hr class="my-4">
+    <div class="footer-copyright py-3">
+      <div class="pb-4">
+        <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+          <i class="fab fa-facebook-f mr-3"></i>
+        </a>
+        <a href="https://twitter.com/MDBootstrap" target="_blank">
+          <i class="fab fa-twitter mr-3"></i>
+        </a>
+        <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+          <i class="fab fa-youtube mr-3"></i>
+        </a>
+        <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+          <i class="fab fa-google-plus-g mr-3"></i>
+        </a>
+        <a href="https://dribbble.com/mdbootstrap" target="_blank">
+          <i class="fab fa-dribbble mr-3"></i>
+        </a>
+        <a href="https://pinterest.com/mdbootstrap" target="_blank">
+          <i class="fab fa-pinterest mr-3"></i>
+        </a>
+        <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+          <i class="fab fa-github mr-3"></i>
+        </a>
+        <a href="http://codepen.io/mdbootstrap/" target="_blank">
+          <i class="fab fa-codepen mr-3"></i>
+        </a>
+      </div>
+      © 2020 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> 寻向网站 </a>
+    </div>
+  </footer> -->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
