@@ -20,6 +20,10 @@ h1 {
   font-weight: bold;
 }
 
+.jumbotron {
+  height: 29rem;
+}
+
 #typing-span {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
@@ -94,7 +98,7 @@ h1 {
 }
 #mySidenav a {
   position: fixed; /* Position them relative to the browser window */
-  left: -97px; /* Position them outside of the screen */
+  right: -97px; /* Position them outside of the screen */
   top: 80%;
   transition: 0.3s; /* Add transition on hover */
   padding: 10px; /* 15px padding */
@@ -103,11 +107,11 @@ h1 {
   text-align: right;
   font-size: 20px; /* Increase font size */
   color: white; /* White text color */
-  border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
+  border-radius: 10px 0 0 10px; /* Rounded corners on the top right and bottom right side */
 }
 
 #mySidenav a:hover {
-  left: 0; /* On mouse-over, make the elements appear as they should */
+  right: 0; /* On mouse-over, make the elements appear as they should */
 }
 
 /* The about link: 20px from the top with a green background */
@@ -130,3 +134,86 @@ h1 {
   top: 200px;
   background-color: #555
 } */
+
+/* Slideshow */
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* /Slideshow */
