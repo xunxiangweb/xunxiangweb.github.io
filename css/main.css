@@ -1,14 +1,22 @@
+.header-size {
+  height: 800px;
+}
 .nav-bg {
   background-color: none;
 }
 
 .main-bg {
-  position: relative;
+  /* position: relative;
   float: right;
   top: 80px;
   right: -300px;
   width: 800px;
-  height: 455px;
+  height: 455px; */
+  position: relative;
+  float: right;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
 }
 /* For typing effect */
 h1 {
