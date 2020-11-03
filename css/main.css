@@ -132,18 +132,37 @@ h1 {
   right: 0; /* On mouse-over, make the elements appear as they should */
 }
 
+#mySidenav2 {
+  top: 770px;
+}
+#mySidenav2 a {
+  position: fixed; /* Position them relative to the browser window */
+  right: -97px; /* Position them outside of the screen */
+  top: 75%;
+  transition: 0.3s; /* Add transition on hover */
+  padding: 10px; /* 15px padding */
+  width: 138px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  text-align: right;
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 10px 0 0 10px; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav2 a:hover {
+  right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
 /* The about link: 20px from the top with a green background */
 #about {
-  top: 20px;
   background-color: #4CAF50;
 }
 
-/* #blog {
-  top: 80px;
+#email {
   background-color: #2196F3;
 }
 
-#projects {
+/* #projects {
   top: 140px;
   background-color: #f44336;
 }
@@ -214,20 +233,8 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 10px;
-  width: 10px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
+.button-text {
+  font-size: 1.25rem;
 }
 
 /* On smaller screens, decrease text size */
