@@ -32,6 +32,10 @@ h1 {
   height: 35rem;
 }
 
+.jumbotron2 {
+  height: 41rem;
+}
+
 #typing-span {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
@@ -52,14 +56,44 @@ h1 {
   padding-right: 2rem;
 }
 
+.principleExtend {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.principleExtend .principleExtendtext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.principleExtend:hover .principleExtendtext {
+  visibility: visible;
+  opacity: 1;
+}
+
 .zoom {
   transition: transform .2s;
+  color: black;
 }
 
 .zoom:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
+  color: black;
 }
 
 .flip-card {
@@ -156,10 +190,12 @@ h1 {
 /* The about link: 20px from the top with a green background */
 #about {
   background-color: #4CAF50;
+  z-index: 1;
 }
 
 #email {
   background-color: #2196F3;
+  z-index: 1;
 }
 
 /* #projects {
@@ -183,6 +219,12 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+.slideshow-pic {
+  width: 15rem;
+  height: 20rem;
+  margin-left: 15rem;
 }
 
 /* Next & previous buttons */
