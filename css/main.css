@@ -121,9 +121,6 @@ h1 {
   transform: rotateY(180deg);
 }
 
-#mySidenav {
-  top: 800px;
-}
 #mySidenav a {
   position: fixed; /* Position them relative to the browser window */
   right: -97px; /* Position them outside of the screen */
@@ -142,13 +139,10 @@ h1 {
   right: 0; /* On mouse-over, make the elements appear as they should */
 }
 
-#mySidenav2 {
-  top: 770px;
-}
 #mySidenav2 a {
   position: fixed; /* Position them relative to the browser window */
   right: -97px; /* Position them outside of the screen */
-  top: 75%;
+  top: 73%;
   transition: 0.3s; /* Add transition on hover */
   padding: 10px; /* 15px padding */
   width: 138px; /* Set a specific width */
@@ -173,16 +167,6 @@ h1 {
   background-color: #2196F3;
   z-index: 1;
 }
-
-/* #projects {
-  top: 140px;
-  background-color: #f44336;
-}
-
-#contact {
-  top: 200px;
-  background-color: #555
-} */
 
 /* Slideshow */
 * {box-sizing: border-box}
@@ -253,6 +237,18 @@ img {vertical-align: middle;}
 
 .button-text {
   font-size: 1.25rem;
+}
+
+.avatar-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.avatar-img-2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
 
 /* On smaller screens, decrease text size */
