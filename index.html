@@ -11,6 +11,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/mdb.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="//db.onlinewebfonts.com/c/2c8ca58e5a91a2a64494d9c5ad5178a2?family=FZZhengHeiS-M-GB" rel="stylesheet" type="text/css" />
   <style type="text/css">
     html,
     body,
@@ -74,65 +75,64 @@
 
 <body>
 
-  <header class="header-size">
 
-    <!-- Navbar -->
-    <nav class="navbar nav-bg navbar-expand-lg navbar-light scrolling-navbar">
-      <div class="container">
+  <!-- Navbar -->
+  <nav class="navbar nav-bg navbar-expand-lg navbar-light scrolling-navbar">
+    <div class="container">
 
-        <!-- Brand -->
-        <a class="navbar-brand" href="">
-          <img src="img/logo.png" width=140px height=70px alt="XX logo">
-        </a>
+      <!-- Brand -->
+      <a class="navbar-brand" href="">
+        <img src="img/logo.png" width=140px height=70px alt="XX logo">
+      </a>
 
-        <!-- Collapse -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <!-- Navbar -->
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#blocks">寻向板块</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#achivements">寻向成就</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#aboutteam">关于团队</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contactus">联系我们</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">关于我们
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Welcome Screen -->
-    <div class="container" style="padding-top: 30px;">
-      <div class="row">
-        <div class="col-lg-4">
-          <h1><b>寻向，</b></h1>
-          <br>
-          <h2 id="typing-text"></h2>
-        </div>
-        <div class="col-lg-8">
-          <img src="img/mainbg.jpg" class="main-bg" alt="main bg">
-        </div>
+        <!-- Navbar -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#blocks">首页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#achivements">寻向板块</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">关于我们</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactus">联系/加入我们</a>
+          </li>
+          <!-- <span class="sr-only">(current)</span> -->
+        </ul>
       </div>
     </div>
-    <a href="#blocks"><img style="display: block; margin: 9% auto; width: 4%;" src="img/arrow.png" alt=""></a>
-  </header>
+  </nav>
+  <!-- <a href="#blocks"><img style="display: block; margin: 9% auto; width: 4%;" src="img/arrow.png" alt=""></a> -->
 
-
+  <!-- Welcome Message -->
+  <section style="padding-left: 10%;">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 style="color: #9179AB">寻向，</h1>
+        <br>
+        <!-- id="typing-text" -->
+        <h2>陪伴留学生找到未来的方向。</h2>
+        <br> <br>
+        <p>寻向是由北美留学生发起的非营利组织。在这里，迷茫中的留学生通过前辈分享的知识、经验、资源了解关于未来的各种可能性，找到属于自己的方向。</p>
+      </div>
+      <!-- Fake padding -->
+      <div class="col-lg-1"></div>
+      <div class="col-lg-6">
+        <img src="img/mainbg.jpg" class="main-bg" alt="main bg">
+      </div>
+    </div>
+    <!-- <a href="#blocks"><p>请往下滑</p></a> -->
+  </section>
 
   <!--Main layout-->
   <main>
@@ -166,23 +166,24 @@
       <!-- <hr class="my-5"> -->
 
 
-      <section class="mt-5 wow fadeIn" id="blocks">
-        <h2 class="my-5 h2">寻向六大板块</h2>
+      <section style="padding-top: 5%;" class="mt-5 wow fadeIn" id="blocks">
+        <h2 class="my-5 h2">我们的六大板块</h2>
         <div class="row">
           <div class="col-lg-6">
             <a href="#">
-              <div class="card zoom">
+              <div class="card zoom card-main">
                 <div class="card-body">
-                  <h2 style="margin-top: 10px;">寻向笔记</h2>
-                  <img src="img/1line.png" style="position: relative; top: -10px;" alt="line1">
+
                   <div class="row">
                     <div class="col-6">
-                      <p style="font-size: 1rem; margin-top: 15px;">记录与讲述留学生梦想与选择的笔记本</p>
-                      <br><br><br>
-                      <p style="font-size: 0.8rem; margin-top: 15px; color: #7DECC4;">了解更多</p>
+                      <h3 style="margin-top: 10px;">寻向笔记</h3>
+                      <img src="img/1line.png" style="position: relative; top: -10px;" alt="line1">
+                      <p style="font-size: 1rem;">记录与讲述留学生梦想与选择的笔记本</p>
+                      <br> <br>
+                      <p class="small-anchor">了解更多</p>
                     </div>
                     <div class="col-6">
-                      <img src="img/notebook.png" style="width:160px;height:160px; margin-left: 1rem;" alt="notebook">
+                      <img src="img/notebook.png" style="width:140px; height:140px; margin-left: 4rem; margin-top: 3rem;" alt="notebook">
                     </div>
                   </div>
                 </div>
@@ -191,18 +192,18 @@
           </div>
           <div class="col-lg-6">
             <a href="lianxisheng.html">
-              <div class="card zoom">
+              <div class="card zoom card-main">
                 <div class="card-body">
-                  <h2 style="margin-top: 10px;">寻向练习生</h2>
-                  <img src="img/2line.png" style="position: relative; top: -10px;" alt="line2">
                   <div class="row">
                     <div class="col-6">
-                      <p style="font-size: 1rem; margin-top: 15px;">帮助留学生成长与进阶的菁英社群</p>
-                      <br><br><br>
-                      <p style="font-size: 0.8rem; margin-top: 15px; color: #FF8A65;">了解更多</p>
+                      <h3 style="margin-top: 10px;">寻向练习生</h3>
+                      <img src="img/2line.png" style="position: relative; top: -10px;" alt="line2">
+                      <p style="font-size: 1rem;">帮助留学生成长与进阶的菁英社群</p>
+                      <br> <br>
+                      <p class="small-anchor">了解更多</p>
                     </div>
                     <div class="col-6">
-                      <img src="img/maskperson.png" style="width:200px;height:200px;" alt="maskperson">
+                      <img src="img/maskperson.png" style="width:200px;height:200px; margin-top: 35px; margin-left: 20px;" alt="maskperson">
                     </div>
                   </div>
                 </div>
@@ -216,18 +217,18 @@
         <div class="row">
           <div class="col-lg-6">
             <a href="#">
-              <div class="card zoom">
+              <div class="card zoom card-main">
                 <div class="card-body">
-                  <h2 style="margin-top: 10px;">寻向行业</h2>
-                  <img src="img/3line.png" style="position: relative; top: -10px;" alt="line3">
                   <div class="row">
                     <div class="col-6">
+                      <h3 style="margin-top: 10px;">寻向行业</h3>
+                      <img src="img/3line.png" style="position: relative; top: -10px;" alt="line3">
                       <p style="font-size: 1rem; margin-top: 15px;">记录与讲述留学生梦想与选择的笔记本</p>
-                      <br><br><br>
-                      <p style="font-size: 0.8rem; margin-top: 15px; color: #8D92FF;">了解更多</p>
+                      <br>
+                      <p class="small-anchor">了解更多</p>
                     </div>
                     <div class="col-6">
-                      <img src="img/layers.png" style="width:200px;height:200px;" alt="layers">
+                      <img src="img/layers.png" style="width:160px;height:160px; margin-left: 35px; margin-top: 30px;" alt="layers">
                     </div>
                   </div>
                 </div>
@@ -236,18 +237,18 @@
           </div>
           <div class="col-lg-6">
             <a href="#">
-              <div class="card zoom">
+              <div class="card zoom card-main">
                 <div class="card-body">
-                  <h2 style="margin-top: 10px;">寻向职场人</h2>
-                  <img src="img/4line.png" style="position: relative; top: -10px;" alt="line4">
                   <div class="row">
                     <div class="col-6">
+                      <h3 style="margin-top: 10px;">寻向职场人</h3>
+                      <img src="img/4line.png" style="position: relative; top: -10px;" alt="line4">
                       <p style="font-size: 1rem; margin-top: 15px;">讲留学后的中国年轻职场人凝聚在一起的社区</p>
-                      <br><br><br>
-                      <p style="font-size: 0.8rem; margin-top: 15px; color: #E1A2FF;">了解更多</p>
+                      <br>
+                      <p class="small-anchor">了解更多</p>
                     </div>
                     <div class="col-6">
-                      <img src="img/laptop.png" style="width:240px;height:180px;" alt="laptop">
+                      <img src="img/laptop.png" style="width:220px;height:150px; margin-left: 24px; margin-top: 30px;" alt="laptop">
                     </div>
                   </div>
                 </div>
@@ -261,18 +262,18 @@
         <div class="row">
           <div class="col-lg-6">
             <a href="#">
-              <div class="card zoom">
+              <div class="card zoom card-main">
                 <div class="card-body">
-                  <h2 style="margin-top: 10px;">寻向广场</h2>
-                  <img src="img/5line.png" style="position: relative; top: -10px;" alt="line5">
                   <div class="row">
                     <div class="col-6">
+                      <h3 style="margin-top: 10px;">寻向广场</h3>
+                      <img src="img/5line.png" style="position: relative; top: -10px;" alt="line5">
                       <p style="font-size: 1rem; margin-top: 15px;">记录与讲述留学生梦想与选择的笔记本</p>
-                      <br><br><br>
-                      <p style="font-size: 0.8rem; margin-top: 15px; color: #FFD290;">了解更多</p>
+                      <br>
+                      <p class="small-anchor">了解更多</p>
                     </div>
                     <div class="col-6">
-                      <img src="img/jump.png" style="width:240px;height:180px;" alt="jump">
+                      <img src="img/jump.png" style="width:240px;height:180px; margin-top: 40px;" alt="jump">
                     </div>
                   </div>
                 </div>
@@ -281,18 +282,18 @@
           </div>
           <div class="col-lg-6">
             <a href="#">
-              <div class="card zoom">
+              <div class="card zoom card-main">
                 <div class="card-body">
-                  <h2 style="margin-top: 10px;">寻向彼岸</h2>
-                  <img src="img/6line.png" style="position: relative; top: -10px;" alt="line6">
                   <div class="row">
                     <div class="col-6">
+                      <h3 style="margin-top: 10px;">寻向彼岸</h3>
+                      <img src="img/6line.png" style="position: relative; top: -10px;" alt="line6">
                       <p style="font-size: 1rem; margin-top: 15px;">连接北美留学家庭的此岸和彼岸</p>
-                      <br><br><br><br>
-                      <p style="font-size: 0.8rem; margin-top: 15px; color: #78E7FF;">了解更多</p>
+                      <br><br>
+                      <p class="small-anchor">了解更多</p>
                     </div>
                     <div class="col-6">
-                      <img src="img/lighthouse.png" style="width:280px;height:200px;" alt="lighthouse">
+                      <img src="img/lighthouse.png" style="width:300px;height:200px; margin-top: 20px;" alt="lighthouse">
                     </div>
                   </div>
                 </div>
@@ -302,57 +303,62 @@
         </div>
         <!--/Second row-->
       </section>
+  </main>
 
-      <!--Section: 数据和评价-->
-      <br>
-      <hr class="mb-5">
-      <!-- "mt-5 wow fadeIn" -->
-      <section class="mt-5 wow fadeIn" id="achivements">
-        <div class="container">
-          <h2 class="my-5 h2">这些年来 我们做了...</h2>
+  <!--Section: 数据和评价-->
+  <br>
+  <hr class="mb-5">
+  <section class="mt-5 wow fadeIn" id="achivements" style="background: url(img/pedal.png); background-size: cover; height: 800px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" style="margin-top: 100px;">
+          <div class="container">
+            <h3>这些年来，我们做了</h3>
+            <h5 style="padding-top: 10px;">寻向微信公众号目前发布 <b style="font-size: 3rem;">72</b> 篇寻向笔记</h5>
+            <h5 style="padding-top: 10px;">采访了就职于 <b style="font-size: 3rem;">43</b> 个公司中从事 <b style="font-size: 3rem;">121</b> 个不同职业的年轻职场人</h5>
+            <h5>寻向练习生社群包含 <b style="font-size: 3rem;">39</b> 名，就读于<b style="font-size: 3rem;">20</b>
+              所不同大学，<b style="font-size: 3rem;">35</b> 种不同专业的大学在校生，以及 <b style="font-size: 3rem;">15</b> 名处于各行各业顶尖公司的练习生领队</h5>
+          </div>
+        </div>
+        <div class="col-lg-6">
           <div class="row">
-            <div class="col-6">
-              <h1>这是88数据</h1>
-              <h1>这是1234数据</h1>
+            <img src="img/avatar1.png" height="100" width="100" alt="avatar1">
+            <div class="card mx-auto" style="width: 70%;">
+              <div class="card-body">
+                仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
+              </div>
             </div>
-            <div class="col-6">
-              <div class="row">
-                <img src="img/avatar1.png" height="100" width="100" alt="avatar1">
-                <div class="card mx-auto" style="width: 70%;">
-                  <div class="card-body">
-                    仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
-                  </div>
-                </div>
+          </div>
+          <br> <br>
+          <div class="row">
+            <div class="card mx-auto" style="width: 70%;">
+              <div class="card-body">
+                仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
               </div>
-              <br> <br>
-              <div class="row">
-                <div class="card mx-auto" style="width: 70%;">
-                  <div class="card-body">
-                    仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
-                  </div>
-                </div>
-                <img src="img/avatar2.png" height="100" width="100" alt="avatar1">
-              </div>
-              <br> <br>
-              <div class="row">
-                <img src="img/avatar3.png" height="100" width="100" alt="avatar1">
-                <div class="card mx-auto" style="width: 70%;">
-                  <div class="card-body">
-                    仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
-                  </div>
-                </div>
+            </div>
+            <img src="img/avatar2.png" height="100" width="100" alt="avatar1">
+          </div>
+          <br> <br>
+          <div class="row">
+            <img src="img/avatar3.png" height="100" width="100" alt="avatar1">
+            <div class="card mx-auto" style="width: 70%;">
+              <div class="card-body">
+                仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <!--Section: 寻向分布-->
-      <br>
-      <hr class="mb-5">
-      <section class="mt-5 wow fadeIn" id="aboutteam">
-        <h2 class="my-5 h2 text-center">寻向分布</h2>
-
+  <main>
+    <!--Section: 寻向分布-->
+    <br>
+    <hr class="mb-5">
+    <section class="mt-5 wow fadeIn" id="aboutteam">
+      <h2 class="my-5 h2 text-center">寻向分布</h2>
+      <div class="container">
         <!-- First Row -->
         <div class="row">
           <div class="col-lg-6 col-sm-12">
@@ -501,10 +507,11 @@
             </div>
           </div>
         </div>
+      </div>
 
-      </section>
-      <br>
-      <hr class="mb-5">
+    </section>
+    <br>
+    <hr class="mb-5">
     </div>
   </main>
   <!--Main layout-->
@@ -519,15 +526,16 @@
       </div>
       <div class="row">
         <h3 style="margin-left: 20px; margin-right:50px; color: white;">合作</h3>
-        <p style="width: 60%; align: right; color: white;">如果你也是针对留学生的公益平台，生产对留学生个人和职业发展有极大帮助的精华内容，我们希望帮助你的平台成长，传播你的内容给更多留学生看到。</p>
+        <p style="width: 60%; color: white;">
+          如果你也是针对留学生的公益平台，生产对留学生个人和职业发展有极大帮助的精华内容，我们希望帮助你的平台成长，传播你的内容给更多留学生看到。</p>
       </div>
       <div class="row">
         <h3 style="margin-left: 20px; margin-right:50px; color: white;">推广</h3>
-        <p style="width: 60%; align: right; color: white;">社群致力于拥有各种背景，各种行业，各种兴趣的年轻职场人提供人脉和知识。大家彼此之间相互分享，互相赋能。</p>
+        <p style="width: 60%; color: white;">社群致力于拥有各种背景，各种行业，各种兴趣的年轻职场人提供人脉和知识。大家彼此之间相互分享，互相赋能。</p>
       </div>
       <div class="row">
         <h3 style="margin-left: 20px; margin-right:50px; color: white;">建议</h3>
-        <p style="width: 60%; align: right; color: white;">如果你对寻向各个项目和产品有任何建议和疑问，请联系：</p>
+        <p style="width: 60%; color: white;">如果你对寻向各个项目和产品有任何建议和疑问，请联系：</p>
       </div>
       <img src="img/logo.png" style="float: right" width=140px height=70px alt="XX logo">
     </div>
