@@ -28,7 +28,7 @@
 
 /* For typing effect */
 h1 {
-  text-transform: uppercase;
+  font-family: 'mainfont-medium';
   text-align: left;
   padding-top: 7rem;
   font-size: 6rem;
@@ -36,10 +36,6 @@ h1 {
 
 .jumbotron {
   height: 35rem;
-}
-
-.jumbotron2 {
-  height: 41rem;
 }
 
 #typing-span {
@@ -61,6 +57,10 @@ h1 {
   margin-top: 100px;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.card-comments{
+  background-color: #6C758B;
 }
 
 .card-main {
@@ -318,10 +318,44 @@ img {
   }
 }
 
-@import url(//db.onlinewebfonts.com/c/2c8ca58e5a91a2a64494d9c5ad5178a2?family=FZZhengHeiS-M-GB);
+@font-face {
+  font-family: 'mainfont-bold';
+  src: url('../font/mainfont/bold/FZZZHONGJW--GB1-0.eot');
+  src: url('../font/mainfont/bold/FZZZHONGHJW.ttf') format('truetype');
+  src:
+    url('../font/mainfont/bold/FZZZHONGJW--GB1-0.eot?#iefix') format('embedded-opentype'),
+    url('../font/mainfont/bold/FZZZHONGJW--GB1-0.woff2') format('woff2'),
+    url('../font/mainfont/bold/FZZZHONGJW--GB1-0.woff') format('woff'),
+    url('../font/mainfont/bold/FZZZHONGJW--GB1-0.svg#FZZZHONGJW--GB1-0') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
-  font-family: "FZZhengHeiS-M-GB";
-  src: url("//db.onlinewebfonts.com/t/2c8ca58e5a91a2a64494d9c5ad5178a2.eot");
-  src: url("//db.onlinewebfonts.com/t/2c8ca58e5a91a2a64494d9c5ad5178a2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2c8ca58e5a91a2a64494d9c5ad5178a2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2c8ca58e5a91a2a64494d9c5ad5178a2.woff") format("woff"), url("//db.onlinewebfonts.com/t/2c8ca58e5a91a2a64494d9c5ad5178a2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2c8ca58e5a91a2a64494d9c5ad5178a2.svg#FZZhengHeiS-M-GB") format("svg");
+  font-family: 'mainfont-light';
+  src: url('../font/mainfont/light/FZZXHJW--GB1-0.eot');
+  src: url('../font/mainfont/light/FZZXHJW.ttf') format('truetype');
+  src:
+    url('../font/mainfont/light/FZZXHJW--GB1-0.eot?#iefix') format('embedded-opentype'),
+    url('../font/mainfont/light/FZZXHJW--GB1-0.woff2') format('woff2'),
+    url('../font/mainfont/light/FZZXHJW--GB1-0.woff') format('woff'),
+    url('../font/mainfont/light/FZZXHJW--GB1-0.svg#FZZXHJW--GB1-0') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'mainfont-medium';
+  src: url('../font/mainfont/medium/FZZZHUNHJW--GB1-0.eot');
+  src: url('../font/mainfont/medium/FZZZHUNHJW.ttf') format('truetype');
+  src:
+    url('../font/mainfont/medium/FZZZHUNHJW--GB1-0.eot?#iefix') format('embedded-opentype'),
+    url('../font/mainfont/medium/FZZZHUNHJW--GB1-0.woff2') format('woff2'),
+    url('../font/mainfont/medium/FZZZHUNHJW--GB1-0.woff') format('woff'),
+    url('../font/mainfont/medium/FZZZHUNHJW--GB1-0.svg#FZZZHUNHJW--GB1-0') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
