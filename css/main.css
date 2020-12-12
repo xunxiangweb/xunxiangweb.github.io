@@ -65,7 +65,13 @@ h1 {
 
 .card-main {
   height: 250px;
-  border-radius: 4%;
+  border-radius: 25px;
+}
+
+.card-joinus {
+  height: 250px;
+  border-radius: 25px;
+  width: 1150px;
 }
 
 .small-anchor {
@@ -235,6 +241,12 @@ img {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+}
+
+/* Footer paragraph text */
+footer div p {
+  font-size: 0.8rem;
+  margin-bottom: 4px;
 }
 
 /* On smaller screens, decrease text size */
