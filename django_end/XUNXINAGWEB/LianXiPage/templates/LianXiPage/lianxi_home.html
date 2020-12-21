@@ -1,0 +1,268 @@
+{% extends "IndexPage/base.html"%}
+{% load static %}
+{%block title%}
+<title>寻向练习生</title>
+{%endblock title%}
+
+{%block content%}
+<style>
+    #begin{
+            background-image: url("{% static 'IndexPage/img/pinkbg.png' %}"); 
+            background-size: cover; 
+            height: 650px;
+        }
+</style>
+<section id="begin">
+    <div class="container" style="height: 10rem;">
+      <h1 class="display-4" style="color: white; padding-top: 5rem;">寻向练习生</h1>
+      <p class="lead" style="color: white;">帮助留学生成长与进阶的菁英社群</p>
+      <br>
+      <!-- <img src="img/lxsline.png" style="margin-top: -20px;" alt="lxsline"> -->
+      <div class="row" style="height: 200px;">
+        <div class="col-lg-8">
+          <p style="color: white; font-size: 1rem;">针对在校生的，高质量，关系紧密的互助社群。多元背景的练习生们经过层层选拔加入项目，在职场前辈最大可能的帮助下，了解不同的方向，找到自己的热爱，实现个人发展的目标。在从“练习生”成长为“职场人” 之后再去帮助之后的“寻向练习生”。</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="{% static 'IndexPage/img/maskpersonhand.png'%}" width="400px" height="400px" style="position: relative; bottom: 20px; left: 60px;" alt="maskperson">
+        </div>
+      </div>
+      <button type="button" class="btn button-text" style="background-color: #FFEBEB; position: relative; bottom: 5rem; border-radius: 30px;">申请加入</button>
+    </div>
+  </section>
+{%endblock content%}
+
+{%block module%}
+<div class="container">
+
+  <!--Section: Main info-->
+  <br>
+
+  <!--Section: Main info-->
+  <section class="mt-5 wow fadeIn">
+    <div class="row">
+      <h2 class="my-5 h2">项目活动</h2>
+      <img src="{% static 'IndexPage/img/star.png'%}" width="28px" height="28px" style="margin-top: 50px; margin-left: 25px;" alt="star">
+    </div>
+
+    <!-- First Row -->
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="container">
+          <h5 class="text-center" style="padding-top: 4rem;">学长学姐面对面</h5>
+          <br>
+          <p>一个“汇聚各种背景的优秀年轻职场人的”个人分享系列讲座。过往分享者来自于咨询，投行，程序员，产品经理等等不同领域和岗位，麦肯锡，谷歌，Informatica, IMF等不同公司和组织。</p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="slideshow-container" style="background-color: #C8ECEE;">
+          <div class="mySlides1">
+            <div class="numbertext">1 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/mianduimian.png'%}">
+          </div>
+          <div class="mySlides1">
+            <div class="numbertext">2 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/chart.png'%}">
+
+          </div>
+          <div class="mySlides1">
+            <div class="numbertext">3 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/summary.png'%}">
+
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+    </div>
+    <!--/First row-->
+    <br>
+
+    <!--Second row-->
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="slideshow-container" style="background-color: #D5EDDC;">
+          <div class="mySlides2">
+            <div class="numbertext">1 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/chart.png'%}">
+            <div class="text">Caption Two</div>
+          </div>
+          <div class="mySlides2">
+            <div class="numbertext">2 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/mianduimian.png'%}">
+            <div class="text">Caption Text</div>
+          </div>
+          <div class="mySlides2">
+            <div class="numbertext">3 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/summary.png'%}">
+            <div class="text">Caption Three</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+      <div class="col-lg-4">
+        <div class="container">
+          <h5 class="text-center" style="padding-top: 4rem;">1-1 Office Hour</h5>
+          <br>
+          <p>练习生专属的与领队一对一交流时间。交流内容包括但不限于行业问题，领队经历，简历修改，和模拟面试。每月初，各种不同背景的领队会开放本月自己的OH slots，练习生sign up后主动reach out领队，确认OH形式和时间。</p>
+        </div>
+      </div>
+    </div>
+    <!--/Second row-->
+    <br>
+
+    <!--Third row-->
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="container">
+          <h5 class="text-center" style="padding-top: 4rem;">学长学姐面对面</h5>
+          <br>
+          <p>一个“汇聚各种背景的优秀年轻职场人的”个人分享系列讲座。过往分享者来自于咨询，投行，程序员，产品经理等等不同领域和岗位，麦肯锡，谷歌，Informatica, IMF等不同公司和组织。</p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="slideshow-container" style="background-color: #C8ECEE;">
+          <div class="mySlides1">
+            <div class="numbertext">1 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/mianduimian.png'%}">
+          </div>
+          <div class="mySlides1">
+            <div class="numbertext">2 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/chart.png'%}">
+          </div>
+          <div class="mySlides1">
+            <div class="numbertext">3 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/summary.png'%}">
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+    </div>
+    <!--/Third row-->
+    <br>
+    <!--Fourth row-->
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="slideshow-container" style="background-color: #D5EDDC;">
+          <div class="mySlides2">
+            <div class="numbertext">1 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/chart.png'%}">
+            <div class="text">Caption Two</div>
+          </div>
+          <div class="mySlides2">
+            <div class="numbertext">2 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/mianduimian.png'%}">
+            <div class="text">Caption Text</div>
+          </div>
+          <div class="mySlides2">
+            <div class="numbertext">3 / 3</div>
+            <img class="slideshow-pic" src="{% static 'IndexPage/img/slideshow/summary.png'%}">
+            <div class="text">Caption Three</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+        </div>
+        <br>
+      </div>
+      <div class="col-lg-4">
+        <div class="container">
+          <h5 class="text-center" style="padding-top: 4rem;">1-1 Office Hour</h5>
+          <br>
+          <p>练习生专属的与领队一对一交流时间。交流内容包括但不限于行业问题，领队经历，简历修改，和模拟面试。每月初，各种不同背景的领队会开放本月自己的OH slots，练习生sign up后主动reach out领队，确认OH形式和时间。</p>
+        </div>
+      </div>
+    </div>
+    <!--/Fourth row-->
+  </section>
+
+  <!--Section: 寻向练习生标准-->
+  <br>
+  <hr class="mb-5">
+  <section class="mt-5 wow fadeIn">
+    <h2 class="my-5 h2">寻向<a style="color: #FF7777;">练习生</a>是谁</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>他们是正在寻找方向的留学生。他们正在探索未来求职、个人发展的方向与选择，希望听到更多信息和声音; 或者已经有了明确方向，希望找到一个努力奋斗的氛围和环境，找到相同领域的前辈 & 小伙伴。</p>
+      </div>
+      <div class="col-lg-8">
+        <h4>寻向练习生有着：</h4>
+        <ul>
+          <li>较强的个人能力和综合素质，善于沟通，是一支不容错过的“潜力股”</li>
+          <li>独立，积极进取，希望由自己来掌控自己的职业发展与未来，有求职的决心与勇气 </li>
+          <li>抱着开放的心态了解不同的职业方向，和同辈/前辈们交流，结交其他练习生们</li>
+          <li>认可寻向的公益理念，对前辈的分享与付出心怀感激</li>
+          <li>在未来自己拿到offer后也愿意帮助更多其他的寻向练习生 </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Section: 寻向领队标准-->
+  <br>
+  <hr class="mb-5">
+  <section class="mt-5 wow fadeIn">
+    <h2 class="my-5 h2">寻向<a style="color: #FF7777;">领队</a>是谁</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <p>他们是优秀年轻职场人。他们正在不同的行业领域，职业道路中打拼。他们愿意和后来人分享经验与经历，利用有限的时间精力帮助极有潜力却又有些迷茫的学弟学妹，同时在这里拓展他们的人脉网络。</p>
+      </div>
+      <div class="col-lg-8">
+        <h4>寻向领队有着：</h4>
+        <ul>
+          <li>对自己所在的职业领域有建树，愿意和后辈分享行业经验</li>
+          <li>在这里发现最有潜力的练习生，并且愿意为他们提供指导建议，帮助他们成功</li>
+          <li>每月参与一次寻向的office hour，线上回答练习生们的提问</li>
+          <li>乐于在寻向这样一个纯公益性质的留学生职场社交平台上结交来自不同行业的同龄人</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Section: 我们的承诺-->
+  <br>
+  <hr class="mb-5">
+  <section class="mt-5 wow fadeIn">
+    <h2 class="my-5 h2 text-center">我们的承诺</h2>
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <img src="{% static 'IndexPage/img/ratio.png'%}" height="80" width="80" alt="avatar1">
+        <div style="margin-top: 15px;">
+          <p class="h4 text-center">领队 vs. 练习生比例：1:3</p>
+        </div>
+        <div style="text-align: left; padding-left: 100px; padding-right: 100px">
+          我们平衡领队和练习生的比例，确保每一个练习生都能有足够的机会与领队交流沟通，确保每一个练习生都足够优秀上进，值得领队的 时间精力付出。
+        </div>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="{% static 'IndexPage/img/handheart.png'%}" height="80" width="80" alt="avatar1">
+        <div class="h4 text-center" style="margin-top: 15px;">
+          0 费用
+        </div>
+        <div style="text-align: left; padding-left: 100px; padding-right: 100px">
+          作为一个公益组织，寻向和商业性求职中介有 着完全不同的出发点，我们所有的辛苦努力不 是为了能从中牟利，而是希望能搭建一个真正对留学生有所帮助的、温暖善良的平台。
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <br> <br>
+      <button type="button" class="btn button-text" style="background-color: #FFEBEB; border-radius: 30px;">申请加入</button>
+    </div>
+  </section>
+  <br> <br> <br>
+</div>
+</main>
+<!--Main layout-->
+
+<section>
+<div class="container" style="margin-bottom: 100px;">
+  <h3 style="text-align: center;">了解寻向其他板块内容</h3>
+  <br><br>
+  <h5 style="text-align: center;">寻向笔记 &nbsp • &nbsp 寻向行业 &nbsp • &nbsp 寻向职场人 &nbsp • &nbsp 寻向广场 &nbsp • &nbsp 寻向彼岸</h5>
+</div>
+</section>
+
+{%endblock module%}
