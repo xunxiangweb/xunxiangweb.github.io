@@ -161,6 +161,11 @@ img {
   vertical-align: middle;
 }
 
+/* School and Company images */
+.SCimg {
+  margin-left: 20px;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
