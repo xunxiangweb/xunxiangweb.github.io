@@ -28,7 +28,7 @@
 
 /* For typing effect */
 h1 {
-  font-family: 'mainfont-medium';
+  font-family: "mainfont-medium";
   text-align: left;
   padding-top: 7rem;
   font-size: 6rem;
@@ -39,7 +39,7 @@ h1 {
 }
 
 #typing-span {
-  border-right: .05em solid;
+  border-right: 0.05em solid;
   animation: caret 1s steps(1) infinite;
 }
 
@@ -60,7 +60,7 @@ h1 {
 }
 
 .card-comments {
-  background-color: #6C758B;
+  background-color: #6c758b;
 }
 
 .card-main {
@@ -71,17 +71,17 @@ h1 {
 .card-joinus {
   height: 250px;
   border-radius: 25px;
-  width: 1150px;
+  width: 120%;
 }
 
 .small-anchor {
-  color: #A4A4A4;
+  color: #a4a4a4;
   font-size: 0.8rem;
 }
 
 /* Card zoom effect */
 .zoom {
-  transition: transform .2s;
+  transition: transform 0.2s;
   color: black;
 }
 
@@ -131,30 +131,30 @@ h1 {
 }
 
 #about {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   z-index: 1;
 }
 
 #email {
-  background-color: #2196F3;
+  background-color: #2196f3;
   z-index: 1;
 }
 
 /* Slideshow */
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
   font-family: Verdana, sans-serif;
-  margin: 0
+  margin: 0;
 }
 
 .mySlides1,
 .mySlides2,
 .mySlides3,
 .mySlides4 {
-  display: none
+  display: none;
 }
 
 img {
@@ -248,6 +248,16 @@ img {
   border-radius: 50%;
 }
 
+.joinus-btn {
+  background-color: #bbcdfb;
+  padding: 10px 19px 11px 19px;
+  border-width: 0px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
 /* Footer paragraph text */
 footer div p {
   font-size: 0.8rem;
@@ -256,10 +266,9 @@ footer div p {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-
   .prev,
   .next,
   .text {
-    font-size: 11px
+    font-size: 11px;
   }
 }
