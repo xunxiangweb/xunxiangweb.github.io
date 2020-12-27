@@ -258,6 +258,20 @@ img {
   margin-top: 15px;
 }
 
+.post-num {
+  margin-left: 40px;
+}
+
+.sidelinks {
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+.sidelinks p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
 /* Footer paragraph text */
 footer div p {
   font-size: 0.8rem;

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>寻向笔记</title>
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font.css" media="none" onload="this.media='all';">
+    <link rel="stylesheet" href="css/main.css">
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .carousel {
+            height: 60vh;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'mainfont-medium';
+        }
+
+        a,
+        .brand {
+            color: inherit;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 740px) {
+
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #000000 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar nav-bg navbar-expand-lg navbar-light scrolling-navbar">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width=140px height=70px alt="XX logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">寻向板块</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinus.html">联系/加入我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Welcome Message -->
+    <section style="background: url(img/notes/greenbg.svg); background-size: cover; height: 600px;">
+        <div class="container" style="height: 10rem;">
+            <h1 class="display-4" style="color: white; padding-top: 5rem;">寻向笔记</h1>
+            <p class="lead" style="color: white;">记录与讲述留学生梦想与选择的笔记本</p>
+            <br>
+            <!-- <img src="img/lxsline.png" style="margin-top: -20px;" alt="lxsline"> -->
+            <div class="row" style="height: 200px;">
+                <div class="col-lg-8">
+                    <p style="color: white; font-size: 1rem;">
+                        写满不同人生可能性的公众号平台。 “人物专访”栏 目每期都会采访在不同的方向与领域奋斗的留学生年 轻人，为后来人展示不同的可能性。 “职场面对面” 栏目每次会介绍一种不同的职业或者公司。
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/notes/notebook.svg" width="300px" height="300px"
+                        style="position: relative; bottom: -8px; left: 60px;" alt="maskperson">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Main layout-->
+    <main>
+        <div id="mySidenav" class="align">
+            <a data-toggle="modal" data-target="#contactinfo" id="about"><i class="fab fa-weixin mr-2"></i> 关注我们</a>
+        </div>
+        <div id="mySidenav2" class="align">
+            <a href="mailto:xunxiangweb@gmail.com" id="email"><i class="fas fa-envelope"></i>&nbsp 联系我们</a>
+        </div>
+        <div class="modal fade" id="contactinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">寻向微信公众号 <i class="fab fa-weixin mr-2"></i>
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/qrcode.jpg" alt="QR code">
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!--Section: 最新专访-->
+            <section class="mt-5 wow fadeIn">
+                <h2 class="my-5 h2" style="font-size: 28px;">最新专访</h2>
+                <div class="row">
+                    <div class="col-md-1"><img src="img/notes/01.svg" class="post-num" alt="01"></div>
+                    <div class="col-md-3">
+                        <img src="img/notes/newPost.svg">
+                        <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
+                            非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
+                        <p style="color: grey; font-size: 12px;">2020.11.28</p>
+                    </div>
+                    <div class="col-md-1"><img src="img/notes/02.svg" class="post-num" alt="02"></div>
+                    <div class="col-md-3">
+                        <img src="img/notes/newPost.svg">
+                        <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
+                            非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
+                        <p style="color: grey; font-size: 12px;">2020.11.28</p>
+                    </div>
+                    <div class="col-md-1"><img src="img/notes/03.svg" class="post-num" alt="03"></div>
+                    <div class="col-md-3">
+                        <img src="img/notes/newPost.svg">
+                        <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
+                            非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
+                        <p style="color: grey; font-size: 12px;">2020.11.28</p>
+                    </div>
+                </div>
+
+                <!-- 所有专访 -->
+                <br><br><br>
+                <h2 class="my-5 h2" style="font-size: 28px;">所有专访</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <img src="img/notes/greendot.svg" alt="dot">
+                            <h3 style="font-size: 24px; margin: 10px 0 15px 7px;">文章类型</h3>
+                        </div>
+                        <div class="sidelinks">
+                            <p><a href="#">全部</a></p>
+                            <p><a href="#">人物专访</a></p>
+                            <p><a href="#">职场面对面</a></p>
+                        </div>
+                        <div class="row">
+                            <img src="img/notes/greendot.svg" alt="dot">
+                            <h3 style="font-size: 24px; margin: 10px 0 15px 7px">行业</h3>
+                        </div>
+                        <div class="sidelinks">
+                            <p><a href="#">全部</a></p>
+                            <p><a href="#">Technology 科技</a></p>
+                            <p><a href="#">Financial Service 金融服务</a></p>
+                            <p><a href="#">Consulting 咨询</a></p>
+                            <p><a href="#">Design/Art 艺术与设计</a></p>
+                            <p><a href="#">Manufacturing 制造</a></p>
+                            <p><a href="#">Insurance 保险</a></p>
+                            <p><a href="#">Healthcare 医疗</a></p>
+                            <p><a href="#">Communications/Media 传媒</a></p>
+                            <p><a href="#">Education 教育</a></p>
+                            <p><a href="#">Research/Science 科研</a></p>
+                            <p><a href="#">Law 法律</a></p>
+                            <p><a href="#">Others 其他</a></p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
+                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            </div>
+                        </div>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
+                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            </div>
+                        </div>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
+                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            </div>
+                        </div>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
+                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            </div>
+                        </div>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
+                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            </div>
+                        </div>
+                        <hr class="mb-5">
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-5 wow fadeIn">
+                <h2 class="my-5 h2" style="font-size: 28px;">专访节选</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Yuhan 学姐</h5>
+                                <p style="font-size: 14px;">四段Product Management经历</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">Networking的时候要注意节约双方的时间， 不要顾左右而言他，要清晰的展现出你的长 处和过往经历，然后直截了当的表示出你的 目的和需求（比如你希望了解他们工作的哪
+                                    些方面，加入哪个 组，或者 希望他们介绍 你认识什么样的人。）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Yuhan 学姐</h5>
+                                <p style="font-size: 14px;">四段Product Management经历</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">Networking的时候要注意节约双方的时间， 不要顾左右而言他，要清晰的展现出你的长 处和过往经历，然后直截了当的表示出你的 目的和需求（比如你希望了解他们工作的哪
+                                    些方面，加入哪个 组，或者 希望他们介绍 你认识什么样的人。）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Yuhan 学姐</h5>
+                                <p style="font-size: 14px;">四段Product Management经历</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">Networking的时候要注意节约双方的时间， 不要顾左右而言他，要清晰的展现出你的长 处和过往经历，然后直截了当的表示出你的 目的和需求（比如你希望了解他们工作的哪
+                                    些方面，加入哪个 组，或者 希望他们介绍 你认识什么样的人。）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Yuhan 学姐</h5>
+                                <p style="font-size: 14px;">四段Product Management经历</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">Networking的时候要注意节约双方的时间， 不要顾左右而言他，要清晰的展现出你的长 处和过往经历，然后直截了当的表示出你的 目的和需求（比如你希望了解他们工作的哪
+                                    些方面，加入哪个 组，或者 希望他们介绍 你认识什么样的人。）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Yuhan 学姐</h5>
+                                <p style="font-size: 14px;">四段Product Management经历</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">Networking的时候要注意节约双方的时间， 不要顾左右而言他，要清晰的展现出你的长 处和过往经历，然后直截了当的表示出你的 目的和需求（比如你希望了解他们工作的哪
+                                    些方面，加入哪个 组，或者 希望他们介绍 你认识什么样的人。）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Yuhan 学姐</h5>
+                                <p style="font-size: 14px;">四段Product Management经历</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">Networking的时候要注意节约双方的时间， 不要顾左右而言他，要清晰的展现出你的长 处和过往经历，然后直截了当的表示出你的 目的和需求（比如你希望了解他们工作的哪
+                                    些方面，加入哪个 组，或者 希望他们介绍 你认识什么样的人。）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <hr class="mb-5">
+
+            <br> <br> <br>
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <section>
+        <div class="container" style="margin-bottom: 100px;">
+            <h3 style="text-align: center;">了解寻向其他板块内容</h3>
+            <br><br>
+            <h5 style="text-align: center;">寻向笔记 &nbsp • &nbsp 寻向行业 &nbsp • &nbsp 寻向职场人 &nbsp • &nbsp 寻向广场 &nbsp • &nbsp
+                寻向彼岸
+            </h5>
+        </div>
+    </section>
+
+    <!-- Section: 联系我们 -->
+    <section class="jumbotron" style="background-color: #6C758B;" id="contactus">
+        <div class="container">
+            <div class="row">
+                <h2 class="my-5 h2" style="color: white;">联系我们</h2>
+                <img src="img/chat.png" height="50" width="50" style="margin-top: 40px; margin-left: 40px;"
+                    alt="chat icon">
+                <a href="mailto:xunxiangweb@gmail.com"><img src="img/email.png" height="50" width="50"
+                        style="margin-top: 40px; margin-left: 20px;" alt="email icon"></a>
+            </div>
+            <div class="row">
+                <h3 style="margin-left: 20px; margin-right:50px; color: white;">合作</h3>
+                <p style="width: 60%; color: white;">
+                    如果你也是针对留学生的公益平台，生产对留学生个人和职业发展有极大帮助的精华内容，我们希望帮助你的平台成长，传播你的内容给更多留学生看到。</p>
+            </div>
+            <div class="row">
+                <h3 style="margin-left: 20px; margin-right:50px; color: white;">推广</h3>
+                <p style="width: 60%; color: white;">社群致力于拥有各种背景，各种行业，各种兴趣的年轻职场人提供人脉和知识。大家彼此之间相互分享，互相赋能。</p>
+            </div>
+            <div class="row">
+                <h3 style="margin-left: 20px; margin-right:50px; color: white;">建议</h3>
+                <p style="width: 60%; color: white;">如果你对寻向各个项目和产品有任何建议和疑问，请联系：</p>
+            </div>
+            <!-- <img src="img/logo.png" style="float: right" width=140px height=70px alt="XX logo"> -->
+        </div>
+    </section>
+
+    <footer id="bottom" class="text-center font-small mt-4">
+        <div class="py-3" style="color: #6C758B;">
+            <p style="font-weight: 600;">Designed and developed by XUNXIANG</p>
+            <p>With special thanks to Yushun Chen, Mei Xia, and Wenqing Yin</p>
+            <p>© 2020 Copyright: <a href="#"> 寻向网站 </a></p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+    <script src="js/index.js"></script>
+    <script src="js/slideshow.js"></script>
+</body>
+
+</html>
