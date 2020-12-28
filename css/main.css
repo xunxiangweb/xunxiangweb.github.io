@@ -278,6 +278,11 @@ footer div p {
   margin-bottom: 4px;
 }
 
+footer p a {
+  color: inherit;
+  font-weight: 600;
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev,
