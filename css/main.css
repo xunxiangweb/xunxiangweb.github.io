@@ -163,7 +163,8 @@ img {
 
 /* School and Company images */
 .SCimg {
-  margin-left: 20px;
+  width: 136px;
+  height: auto;
 }
 
 /* Slideshow container */
