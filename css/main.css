@@ -263,6 +263,11 @@ img {
   margin-left: 40px;
 }
 
+.new-post {
+  width: 255px;
+  height: 127px;
+}
+
 .sidelinks {
   margin-left: 15px;
   margin-bottom: 30px;
