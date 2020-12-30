@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>寻向笔记</title>
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font.css" media="none" onload="this.media='all';">
+    <link rel="stylesheet" href="css/main.css">
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .carousel {
+            height: 60vh;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'mainfont-medium';
+        }
+
+        a,
+        .brand {
+            color: inherit;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 740px) {
+
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #000000 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar nav-bg navbar-expand-lg navbar-light scrolling-navbar">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width=140px height=70px alt="XX logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">寻向板块</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinus.html">加入我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinus.html#contactus">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Welcome Message -->
+    <section style="background: url(img/notes/greenbg.svg); background-size: cover; height: 600px;">
+        <div class="container" style="height: 10rem;">
+            <h1 class="display-4" style="color: white; padding-top: 5rem;">寻向笔记</h1>
+            <p class="lead" style="color: white;">记录与讲述留学生梦想与选择的笔记本</p>
+            <br>
+            <!-- <img src="img/lxsline.png" style="margin-top: -20px;" alt="lxsline"> -->
+            <div class="row" style="height: 200px;">
+                <div class="col-lg-8">
+                    <p style="color: white; font-size: 1rem;">
+                        写满不同人生可能性的公众号平台。 “人物专访”栏 目每期都会采访在不同的方向与领域奋斗的留学生年 轻人，为后来人展示不同的可能性。 “职场面对面” 栏目每次会介绍一种不同的职业或者公司。
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/notes/notebook.svg" width="300px" height="300px"
+                        style="position: relative; bottom: -8px; left: 60px;" alt="maskperson">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Main layout-->
+    <main>
+        <div id="mySidenav" class="align">
+            <a data-toggle="modal" data-target="#contactinfo" id="about"><i class="fab fa-weixin mr-2"></i> 关注我们</a>
+        </div>
+        <div id="mySidenav2" class="align">
+            <a href="mailto:xunxiangweb@gmail.com" id="email"><i class="fas fa-envelope"></i>&nbsp 联系我们</a>
+        </div>
+        <div class="modal fade" id="contactinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">寻向微信公众号 <i class="fab fa-weixin mr-2"></i>
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="img/qrcode.jpg" alt="QR code">
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!--Section: 最新专访-->
+            <section class="mt-5 wow fadeIn">
+                <h2 class="my-5 h2" style="font-size: 28px;">最新专访</h2>
+                <div class="row">
+                    <div class="col-md-1"><img src="img/notes/01.svg" class="post-num" alt="01"></div>
+                    <div class="col-md-3">
+                        <a href="https://mp.weixin.qq.com/s/CC9PLeWDxitHEbn8Njx5JQ" target="_blank">
+                            <img src="img/notes/new/01.jpeg" class="new-post">
+                            <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
+                                时尚KOL、自媒体创业者：她说，内心的声音才是唯一的答案</p>
+                        </a>
+                        <p style="color: grey; font-size: 12px;">2020.11.25</p>
+                    </div>
+                    <div class="col-md-1"><img src="img/notes/02.svg" class="post-num" alt="02"></div>
+                    <div class="col-md-3">
+                        <a href="https://mp.weixin.qq.com/s/KHvPHVA97pdT5p63vs8qnA" target="_blank">
+                            <img src="img/notes/new/02.jpeg" class="new-post">
+                            <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
+                                人物专访｜一位内向者的社交进化之旅</p>
+                        </a>
+                        <p style="color: grey; font-size: 12px;">2020.11.02</p>
+                    </div>
+                    <div class="col-md-1"><img src="img/notes/03.svg" class="post-num" alt="03"></div>
+                    <div class="col-md-3">
+                        <a href="https://mp.weixin.qq.com/s/HF5AvxE1ZVzdQZbidp4Ulg" target="_blank">
+                            <img src="img/notes/new/03.jpeg" class="new-post">
+                            <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
+                                寻向分享｜95-00后青年职业发展白皮书</p>
+                        </a>
+                        <p style="color: grey; font-size: 12px;">2020.10.11</p>
+                    </div>
+                </div>
+
+                <!-- 所有专访 -->
+                <br><br><br>
+                <h2 class="my-5 h2" style="font-size: 28px;">所有专访</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <img src="img/notes/greendot.svg" alt="dot">
+                            <h3 style="font-size: 24px; margin: 10px 0 15px 7px;">文章类型</h3>
+                        </div>
+                        <div class="sidelinks">
+                            <p><a href="#">全部</a></p>
+                            <p><a href="#">人物专访</a></p>
+                            <p><a href="#">职场面对面</a></p>
+                        </div>
+                        <div class="row">
+                            <img src="img/notes/greendot.svg" alt="dot">
+                            <h3 style="font-size: 24px; margin: 10px 0 15px 7px">行业</h3>
+                        </div>
+                        <div class="sidelinks">
+                            <!-- <p><a href="#">全部</a></p> -->
+                            <p><a onclick="changeCat('tech')">technology 科技</a></p>
+                            <p><a onclick="changeCat('business')">Business 商业</a></p>
+                            <!-- <p><a href="#">Financial Service 金融服务</a></p> -->
+                            <!-- <p><a href="#">Consulting 咨询</a></p>
+                            <p><a href="#">Design/Art 艺术与设计</a></p>
+                            <p><a href="#">Manufacturing 制造</a></p>
+                            <p><a href="#">Insurance 保险</a></p>
+                            <p><a href="#">Healthcare 医疗</a></p>
+                            <p><a href="#">Communications/Media 传媒</a></p>
+                            <p><a href="#">Education 教育</a></p>
+                            <p><a href="#">Research/Science 科研</a></p>
+                            <p><a href="#">Law 法律</a></p>
+                            <p><a href="#">Others 其他</a></p> -->
+                        </div>
+
+                    </div>
+                    <div class="col-md-8">
+                        <div id="1tech" style="display: block;">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        tech1</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        tech1</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        tech1</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                        </div>
+                        <div id="2tech" style="display: none;">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        tech2测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        tech2测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        tech2测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                        </div>
+                        <div id="1business" style="display: none;">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        business1测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        business1测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        business1测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                        </div>
+                        <div id="2business" style="display: none;">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        business2测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        business2测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        business2测试</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                        </div>
+                    </div>
+                </div>
+                <button onclick="changePage(2)" style="float: right;">2</button>
+                <button onclick="changePage(1)" style="float: right;">1</button>
+            </section>
+
+            <section class="mt-5 wow fadeIn">
+                <h2 class="my-5 h2" style="font-size: 28px;">专访节选</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Yuhan 学姐</h5>
+                                <p style="font-size: 14px;">四段Product Management经历</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">Networking的时候要注意节约双方的时间， 不要顾左右而言他，要清晰的展现出你的长
+                                    处和过往经历，然后直截了当的表示出你的 目的和需求（比如你希望了解他们工作的哪
+                                    些方面，加入哪个 组，或者 希望他们介绍 你认识什么样的人。）</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Qi 学长</h5>
+                                <p style="font-size: 14px;">西湖大学生命科学学院研究员，助理教授</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">在
+                                    industry就业，你研究的东西要能应用，成功率，稳定性比较重要；而在academia，你更需要发现一些新鲜东西，novelty比较重要。从工作角度，academia压力可能会相对大一些；国内外绝大institution都是有考核的tenure
+                                    track。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Chloris 学姐</h5>
+                                <p style="font-size: 14px;">读研期间创立了Theor. Inc, 担任CEO</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">
+                                    找到合适的工作能让你受益一辈子，因为你以后70%的时间都会花在工作上面。接下来成为一个什么样的人，很大程度是由工作决定的。所以当我在权衡利弊的时候，不是看哪个赚得多，而是看哪个学的多。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Derek 学长</h5>
+                                <p style="font-size: 14px;">曾实习于real estate，private equity；现就职于PwC</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">
+                                    其次是针对商科专业并以后想留在美国的同学的建议：你去一个名气大的国内企业不如去一个美国小公司实习。在美的实习经历能够让其他美国公司相信你对美国公司的运营方式有很好的适应能力。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Joey 学长</h5>
+                                <p style="font-size: 14px;">曾实习于Amazon, Intel, 美团；现就职于阿里巴巴，任算法工程师</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">机器学习是一个inter-disciplinary的工作，需要多方面的技能。
+                                    首先你需要有很强的计算机的功底。一门工程语言是必不可少的（比如C++或Java）。另外，你需要有数据分析的能力。Python对机器学习来说现在应该是最重要的东西，因为现在大多数机器学习的开源库都是用Python写的；另外R语言也是做数据分析很常用的工具。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-5 text-center">
+                                <img src="img/notes/avatarPlaceholder.svg" style="margin-bottom: 15px;" alt="avatar">
+                                <h5 style="font-size: 18px;">Lily 学姐</h5>
+                                <p style="font-size: 14px;">UCLA 2019，曾转过3次专业；目前就职于investment industry</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p style="font-size: 14px;">
+                                    Passion很重要。我的经历主要是在价值投资。我觉得重要的是对于新闻、市场还有公司的了解。如果对investment感兴趣的话，在学校里面，我个人认为只埋头学习是不够的。看看你身边都在发生什么，比如关注一下最近哪家公司收购了哪家公司，哪家公司最近IPO(Initial
+                                    Public Offerings，首次公开募股），有哪些重大政策调整等等，这些都很依靠平时的积累。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <hr class="mb-5">
+
+            <br> <br> <br>
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <section>
+        <div class="container" style="margin-bottom: 100px;">
+            <h3 style="text-align: center;">了解寻向其他板块内容</h3>
+            <br><br>
+            <h5 style="text-align: center;">寻向笔记 &nbsp • &nbsp 寻向行业 &nbsp • &nbsp 寻向职场人 &nbsp • &nbsp 寻向广场 &nbsp • &nbsp
+                寻向彼岸
+            </h5>
+        </div>
+    </section>
+
+    <!-- Section: 联系我们 -->
+    <section class="jumbotron" style="background-color: #6C758B;" id="contactus">
+        <div class="container">
+            <div class="row">
+                <h2 class="my-5 h2" style="color: white;">联系我们</h2>
+                <a data-toggle="modal" data-target="#contactinfo">
+                    <img src="img/chat.png" height="50" width="50" style="margin-top: 40px; margin-left: 40px;"
+                        alt="chat icon">
+                </a>
+                <a href="mailto:xunxiangweb@gmail.com"><img src="img/email.png" height="50" width="50"
+                        style="margin-top: 40px; margin-left: 20px;" alt="email icon"></a>
+            </div>
+            <div class="row">
+                <h3 style="margin-left: 20px; margin-right:50px; color: white;">合作</h3>
+                <p style="width: 60%; color: white;">
+                    如果你也是针对留学生的公益平台，生产对留学生个人和职业发展有极大帮助的精华内容，我们希望帮助你的平台成长，传播你的内容给更多留学生看到。</p>
+            </div>
+            <div class="row">
+                <h3 style="margin-left: 20px; margin-right:50px; color: white;">推广</h3>
+                <p style="width: 60%; color: white;">社群致力于拥有各种背景，各种行业，各种兴趣的年轻职场人提供人脉和知识。大家彼此之间相互分享，互相赋能。</p>
+            </div>
+            <div class="row">
+                <h3 style="margin-left: 20px; margin-right:50px; color: white;">建议</h3>
+                <p style="width: 60%; color: white;">如果你对寻向各个项目和产品有任何建议和疑问，请联系：</p>
+            </div>
+            <!-- <img src="img/logo.png" style="float: right" width=140px height=70px alt="XX logo"> -->
+        </div>
+    </section>
+
+    <footer id="bottom" class="text-center font-small mt-4">
+        <div class="py-3" style="color: #6C758B;">
+            <p style="font-weight: 600;">Designed and developed by XUNXIANG</p>
+            <p>With special thanks to <a href="https://yushunchen.com/" target="_blank">Yushun Chen</a>, <a
+                    href="https://wenqingyin.github.io/" target="_blank">Wenqing Yin</a>, and <a
+                    href="https://meix.design/" target="_blank">Mei
+                    Xia</a></p>
+            <p>© 2020 Copyright: <a href="#"> 寻向网站 </a></p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/notes.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+    <script src="js/index.js"></script>
+    <script src="js/slideshow.js"></script>
+
+</body>
+
+</html>
