@@ -38,6 +38,10 @@ h1 {
   height: 35rem;
 }
 
+.jumbotron-bot {
+  height: 20rem;
+}
+
 #typing-span {
   border-right: 0.05em solid;
   animation: caret 1s steps(1) infinite;
