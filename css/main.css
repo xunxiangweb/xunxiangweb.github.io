@@ -167,6 +167,12 @@ img {
   height: auto;
 }
 
+.SCimg-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
