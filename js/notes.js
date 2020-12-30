@@ -27,3 +27,12 @@ function changeCat(cat){
         }
     }
 }
+
+function showAll(){
+    for (let c = 0; c < categories.length; c++) {
+        for (let p = 0; p < pages.length; p++) {
+            var pageShown = document.getElementById(pages[p] + categories[c]);
+            pageShown.style.display = 'block';
+        }
+    }
+}
