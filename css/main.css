@@ -6,6 +6,10 @@
   background-color: none;
 }
 
+nav {
+  box-shadow: none !important;
+}
+
 .main-bg {
   position: relative;
   float: right;
