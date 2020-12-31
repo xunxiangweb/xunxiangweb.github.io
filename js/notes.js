@@ -1,4 +1,4 @@
-let pages = [1, 2, 3, 4, 5];
+let pages = [1, 2, 3, 4, 5, 6];
 let categories = [
   "tech",
   "finance",
@@ -20,6 +20,10 @@ function changePage(page) {
     i === page
       ? (currPage.style.display = "block")
       : (currPage.style.display = "none");
+      let articles = currPage.getElementsByClassName("cat");
+      for (let a of articles) {
+        a.style.display = "block"
+      }
   }
 }
 function nextPage() {
@@ -46,16 +50,12 @@ function prevPage() {
 }
 
 function changeCat(cat) {
-  currentCat = cat;
-  var pageShown = document.getElementById("1" + currentCat);
-  pageShown.style.display = "block";
-
-  for (let c = 0; c < categories.length; c++) {
-    for (let p = 0; p < pages.length; p++) {
-      if (pages[p] + categories[c] != "1" + cat) {
-        var pageHide = document.getElementById(pages[p] + categories[c]);
-        pageHide.style.display = "none";
-      }
+  for (let i of pages) {
+    currPage = document.getElementById(`page${i}`);
+    let articles = currPage.getElementsByClassName("cat");
+    for (let a of articles) {
+      a.className.includes(cat) ? a.style.display = "block" : a.style.display = "none"
     }
+    currPage.style.display = "block"
   }
 }
