@@ -278,7 +278,7 @@ img {
 }
 
 .new-post {
-  width: 255px;
+  width: 270px;
   height: 127px;
 }
 
@@ -290,6 +290,18 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 15px;
+}
+
+.article-img {
+  width: 250px;
+  height: 112px;
+}
+
+.article-text {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 270px;
 }
 
 /* Footer paragraph text */

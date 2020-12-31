@@ -69,7 +69,7 @@
     </style>
 </head>
 
-<body>
+<body onload="changePage(1)">
 
     <!-- Navbar -->
     <nav class="navbar nav-bg navbar-expand-lg navbar-light scrolling-navbar">
@@ -176,8 +176,7 @@
                     <div class="col-md-3">
                         <a href="https://mp.weixin.qq.com/s/CC9PLeWDxitHEbn8Njx5JQ" target="_blank">
                             <img src="img/notes/new/01.jpeg" class="new-post">
-                            <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
-                                时尚KOL、自媒体创业者：她说，内心的声音才是唯一的答案</p>
+                            <p class="article-text">时尚KOL、自媒体创业者：她说，内心的声音才是唯一的答案</p>
                         </a>
                         <p style="color: grey; font-size: 12px;">2020.11.25</p>
                     </div>
@@ -185,17 +184,15 @@
                     <div class="col-md-3">
                         <a href="https://mp.weixin.qq.com/s/KHvPHVA97pdT5p63vs8qnA" target="_blank">
                             <img src="img/notes/new/02.jpeg" class="new-post">
-                            <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
-                                人物专访｜一位内向者的社交进化之旅</p>
+                            <p class="article-text">人物专访｜一位内向者的社交进化之旅</p>
                         </a>
                         <p style="color: grey; font-size: 12px;">2020.11.02</p>
                     </div>
                     <div class="col-md-1"><img src="img/notes/03.svg" class="post-num" alt="03"></div>
                     <div class="col-md-3">
-                        <a href="https://mp.weixin.qq.com/s/HF5AvxE1ZVzdQZbidp4Ulg" target="_blank">
-                            <img src="img/notes/new/03.jpeg" class="new-post">
-                            <p style="font-weight: 500; font-size: 16px; margin-top: 10px;">
-                                寻向分享｜95-00后青年职业发展白皮书</p>
+                        <a href="https://mp.weixin.qq.com/s/YSYOxEiDyT88MyYWIvNGeQ" target="_blank">
+                            <img src="img/notes/articles/02.jpeg" class="new-post">
+                            <p class="article-text">三国求学，迪拜BCG入职：学姐讲述她的人生机遇与选择</p>
                         </a>
                         <p style="color: grey; font-size: 12px;">2020.10.11</p>
                     </div>
@@ -205,7 +202,7 @@
                 <br><br><br>
                 <h2 class="my-5 h2" style="font-size: 28px;">所有专访</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="row">
                             <img src="img/notes/greendot.svg" alt="dot">
                             <h3 style="font-size: 24px; margin: 10px 0 15px 7px;">文章类型</h3>
@@ -236,64 +233,326 @@
                         </div>
 
                     </div>
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-md-9">
-                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
-                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
-                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                    <div class="col-md-9">
+                        <!-- Page 1 -->
+                        <div id="page1">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <a href="https://mp.weixin.qq.com/s/3ECItOc7JG2cekw0jQXyVQ" target="_blank">
+                                        <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                            在风口浪尖回收data求职路-信管学姐的成长和思考</p>
+                                        <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/01.jpeg" alt="Placeholder">
+                                </div>
                             </div>
-                            <div class="col-md-3">
-                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <a href="https://mp.weixin.qq.com/s/YSYOxEiDyT88MyYWIvNGeQ" target="_blank">
+                                        <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                            三国求学，迪拜BCG入职：学姐讲述她的人生机遇与选择</p>
+                                        <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/02.jpeg" alt="Placeholder">
+                                </div>
                             </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <a href="https://mp.weixin.qq.com/s/_R__AwXaaT3MiI8ruqaglA" target="_blank">
+                                        <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                            在求职与旅行的道路上，赤字之心永不缺席</p>
+                                        <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/03.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <a href="https://mp.weixin.qq.com/s/CC9PLeWDxitHEbn8Njx5JQ" target="_blank">
+                                        <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                            时尚KOL、自媒体创业者：她说，内心的声音才是唯一的答案</p>
+                                        <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/04.jpg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <a href="https://mp.weixin.qq.com/s/m08rGAsHM7rmmnDcMaFr2Q" target="_blank">
+                                        <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                            一个经济留学生的打怪升级之路：从伯克利到国际货币基金组织</p>
+                                        <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/05.jpg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
                         </div>
-                        <hr class="mb-5">
-                        <div class="row">
-                            <div class="col-md-9">
-                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
-                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
-                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+
+                        <!-- Page 2 -->
+                        <div id="page2">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        一个经济留学生的打怪升级之路：从伯克利到国际货币基金组织</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/06.jpeg" alt="Placeholder">
+                                </div>
                             </div>
-                            <div class="col-md-3">
-                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        急性子的人怎么读博？</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/07.jpeg" alt="Placeholder">
+                                </div>
                             </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        所谓航运：遥遥千里之外，起步始于足下</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        所谓航运：遥遥千里之外，起步始于足下</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        所谓航运：遥遥千里之外，起步始于足下</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
                         </div>
-                        <hr class="mb-5">
-                        <div class="row">
-                            <div class="col-md-9">
-                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
-                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
-                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+
+                        <!-- Page 3-->
+                        <div id="page3">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第三页这是第三页这是第三页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/06.jpeg" alt="Placeholder">
+                                </div>
                             </div>
-                            <div class="col-md-3">
-                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第三页这是第三页这是第三页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/07.jpeg" alt="Placeholder">
+                                </div>
                             </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第三页这是第三页这是第三页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第三页这是第三页这是第三页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第三页这是第三页这是第三页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
                         </div>
-                        <hr class="mb-5">
-                        <div class="row">
-                            <div class="col-md-9">
-                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
-                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
-                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+
+                        <!-- Page 4-->
+                        <div id="page4">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第四页这是第四页这是第四页这是第四页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/06.jpeg" alt="Placeholder">
+                                </div>
                             </div>
-                            <div class="col-md-3">
-                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第四页这是第四页这是第四页这是第四页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/07.jpeg" alt="Placeholder">
+                                </div>
                             </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第四页这是第四页这是第四页这是第四页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第四页这是第四页这是第四页这是第四页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第四页这是第四页这是第四页这是第四页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
                         </div>
-                        <hr class="mb-5">
-                        <div class="row">
-                            <div class="col-md-9">
-                                <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
-                                    非CS背景转行机器学习，并斩获阿里腾讯华为美团全职Offer...</p>
-                                <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+
+                        <!-- Page 5-->
+                        <div id="page5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第五页这是第五页这是第五页这是第五页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/06.jpeg" alt="Placeholder">
+                                </div>
                             </div>
-                            <div class="col-md-3">
-                                <img src="img/notes/postPlaceholder.svg" alt="Placeholder">
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第五页这是第五页这是第五页这是第五页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/07.jpeg" alt="Placeholder">
+                                </div>
                             </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第五页这是第五页这是第五页这是第五页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第五页这是第五页这是第五页这是第五页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <p style="font-weight: 500; font-size: 18px; margin-top: 10px;">
+                                        这是第五页这是第五页这是第五页这是第五页</p>
+                                    <p style="color: grey; font-size: 16px;">算法工程师都做些什么？</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="article-img" src="img/notes/articles/08.jpeg" alt="Placeholder">
+                                </div>
+                            </div>
+                            <hr class="mb-5">
                         </div>
-                        <hr class="mb-5">
+
                     </div>
                 </div>
+
+                <nav>
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item"><a class="page-link" onclick="prevPage()">Previous</a></li>
+                        <li class="page-item"><a class="page-link" onclick="changePage(1)">1</a></li>
+                        <li class="page-item"><a class="page-link" onclick="changePage(2)">2</a></li>
+                        <li class="page-item"><a class="page-link" onclick="changePage(3)">3</a></li>
+                        <li class="page-item"><a class="page-link" onclick="changePage(4)">4</a></li>
+                        <li class="page-item"><a class="page-link" onclick="changePage(5)">5</a></li>
+                        <li class="page-item"><a class="page-link" onclick="nextPage()">Next</a></li>
+                    </ul>
+                </nav>
             </section>
 
             <section class="mt-5 wow fadeIn">
@@ -307,9 +566,10 @@
                                 <p style="font-size: 14px;">四段Product Management经历</p>
                             </div>
                             <div class="col-md-7">
-                                <p style="font-size: 14px;">Networking的时候要注意节约双方的时间，不要顾左右而言他，要清晰的展现出你的长
+                                <p style="font-size: 14px;"><b
+                                        style="font-size: 2rem;">“</b>Networking的时候要注意节约双方的时间，不要顾左右而言他，要清晰的展现出你的长
                                     处和过往经历，然后直截了当的表示出你的目的和需求（比如你希望了解他们工作的哪
-                                    些方面，加入哪个组，或者希望他们介绍你认识什么样的人。）</p>
+                                    些方面，加入哪个组，或者希望他们介绍你认识什么样的人。）<b style="font-size: 2rem;">”</b></p>
                             </div>
                         </div>
                     </div>
@@ -321,9 +581,9 @@
                                 <p style="font-size: 14px;">西湖大学生命科学学院研究员，助理教授</p>
                             </div>
                             <div class="col-md-7">
-                                <p style="font-size: 14px;">在
+                                <p style="font-size: 14px;"><span style="font-size: 2rem; height: 10px;">“</span>在
                                     industry就业，你研究的东西要能应用，成功率，稳定性比较重要；而在academia，你更需要发现一些新鲜东西，novelty比较重要。从工作角度，academia压力可能会相对大一些；国内外绝大institution都是有考核的tenure
-                                    track。</p>
+                                    track。<span style="font-size: 2rem;">”</span></p>
                             </div>
                         </div>
                     </div>
@@ -335,8 +595,9 @@
                                 <p style="font-size: 14px;">读研期间创立了Theor. Inc, 担任CEO</p>
                             </div>
                             <div class="col-md-7">
-                                <p style="font-size: 14px;">
+                                <p style="font-size: 14px;"><b style="font-size: 2rem;">“</b>
                                     找到合适的工作能让你受益一辈子，因为你以后70%的时间都会花在工作上面。接下来成为一个什么样的人，很大程度是由工作决定的。所以当我在权衡利弊的时候，不是看哪个赚得多，而是看哪个学的多。
+                                    <b style="font-size: 2rem;">”</b>
                                 </p>
                             </div>
                         </div>
@@ -352,8 +613,9 @@
                                 <p style="font-size: 14px;">曾实习于real estate，private equity；现就职于PwC</p>
                             </div>
                             <div class="col-md-7">
-                                <p style="font-size: 14px;">
+                                <p style="font-size: 14px;"><b style="font-size: 2rem;">“</b>
                                     其次是针对商科专业并以后想留在美国的同学的建议：你去一个名气大的国内企业不如去一个美国小公司实习。在美的实习经历能够让其他美国公司相信你对美国公司的运营方式有很好的适应能力。
+                                    <b style="font-size: 2rem;">”</b>
                                 </p>
                             </div>
                         </div>
@@ -366,8 +628,10 @@
                                 <p style="font-size: 14px;">曾实习于Amazon, Intel, 美团；现就职于阿里巴巴，任算法工程师</p>
                             </div>
                             <div class="col-md-7">
-                                <p style="font-size: 14px;">机器学习是一个inter-disciplinary的工作，需要多方面的技能。
+                                <p style="font-size: 14px;"><b
+                                        style="font-size: 2rem;">“</b>机器学习是一个inter-disciplinary的工作，需要多方面的技能。
                                     首先你需要有很强的计算机的功底。一门工程语言是必不可少的（比如C++或Java）。另外，你需要有数据分析的能力。Python对机器学习来说现在应该是最重要的东西，因为现在大多数机器学习的开源库都是用Python写的；另外R语言也是做数据分析很常用的工具。
+                                    <b style="font-size: 2rem;">”</b>
                                 </p>
                             </div>
                         </div>
@@ -380,9 +644,10 @@
                                 <p style="font-size: 14px;">UCLA 2019，曾转过3次专业；目前就职于investment industry</p>
                             </div>
                             <div class="col-md-7">
-                                <p style="font-size: 14px;">
+                                <p style="font-size: 14px;"><b style="font-size: 2rem;">“</b>
                                     Passion很重要。我的经历主要是在价值投资。我觉得重要的是对于新闻、市场还有公司的了解。如果对investment感兴趣的话，在学校里面，我个人认为只埋头学习是不够的。看看你身边都在发生什么，比如关注一下最近哪家公司收购了哪家公司，哪家公司最近IPO(Initial
-                                    Public Offerings，首次公开募股），有哪些重大政策调整等等，这些都很依靠平时的积累。</p>
+                                    Public Offerings，首次公开募股），有哪些重大政策调整等等，这些都很依靠平时的积累。<b style="font-size: 2rem;">”</b>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -456,6 +721,7 @@
     </script>
     <script src="js/index.js"></script>
     <script src="js/slideshow.js"></script>
+    <script src="js/notes.js"></script>
 </body>
 
 </html>
