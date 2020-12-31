@@ -1,5 +1,18 @@
 let pages = [1, 2, 3, 4, 5];
-let categories = ["tech", "business"];
+let categories = [
+  "tech",
+  "finance",
+  "consulting",
+  "design/art",
+  "manufacturing",
+  "insurance",
+  "healthcare",
+  "comm",
+  "education",
+  "research",
+  "law",
+  "others",
+];
 let currentCat = "tech";
 function changePage(page) {
   for (let i of pages) {
