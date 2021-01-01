@@ -24,7 +24,11 @@
       font-size: 1.2rem;
     }
 
-    h2, h3, h4, h5, h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       font-family: 'mainfont-medium';
     }
 
@@ -69,16 +73,17 @@
 
 
   <!-- Navbar -->
-  <nav class="navbar nav-bg navbar-expand-lg navbar-light scrolling-navbar">
+  <nav class="navbar nav-bg navbar-expand-lg navbar-light scrolling-navbar" style="box-shadow: none !important;">
     <div class="container">
 
       <!-- Brand -->
       <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width=140px height=70px alt="XX logo">
+        <img src="img/xxlogo.svg" width=140px height=70px alt="XX logo">
       </a>
 
       <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -88,7 +93,7 @@
         <!-- Navbar -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">首页</a>
+            <a class="nav-link" href="index.html">首页</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#blocks">寻向板块</a>
@@ -97,7 +102,10 @@
             <a class="nav-link" href="aboutus.html">关于我们</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contactus">联系/加入我们</a>
+            <a class="nav-link" href="joinus.html">加入我们</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="joinus.html#contactus">联系我们</a>
           </li>
           <!-- <span class="sr-only">(current)</span> -->
         </ul>
@@ -115,12 +123,13 @@
         <!-- id="typing-text" -->
         <h2>陪伴留学生找到未来的方向。</h2>
         <br> <br>
-        <p>寻向是由北美留学生发起的非营利组织。在这里，迷茫中的留学生通过前辈分享的知识、经验、资源了解关于未来的各种可能性，找到属于自己的方向。</p>
+        <!-- <p>寻向是由北美留学生发起的非营利组织。在这里，迷茫中的留学生通过前辈分享的知识、经验、资源了解关于未来的各种可能性，找到属于自己的方向。</p> -->
+        <p>寻向是由北美留学生于2018年发起的非营利组织，其目的是通过采访过来人，导师项目，互助社群等形式，帮助留学生了解更多的职业方向和未来发展的可能性，连接在校生和职场人，使知识、经验、资源在留学生中不断传承。</p>
       </div>
       <!-- Fake padding -->
       <div class="col-lg-1"></div>
       <div class="col-lg-6">
-        <img src="img/mainbg.jpg" class="main-bg" alt="main bg">
+        <img src="img/mainbg.svg" class="main-bg" alt="main bg">
       </div>
     </div>
     <!-- <a href="#blocks"><p>请往下滑</p></a> -->
@@ -134,7 +143,8 @@
     <div id="mySidenav2" class="align">
       <a href="mailto:xunxiangweb@gmail.com" id="email"><i class="fas fa-envelope"></i>&nbsp 联系我们</a>
     </div>
-    <div class="modal fade" id="contactinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="contactinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -153,12 +163,12 @@
     </div>
 
     <div class="container">
-      <!--Section: 六大板块卡片-->
+      <!--Section: 五大板块卡片-->
       <section style="padding-top: 5%;" class="mt-5 wow fadeIn" id="blocks">
-        <h2 class="my-5 h2" style="color: #6C758B;">我们的六大板块</h2>
+        <h2 class="my-5 h2" style="color: #6C758B;">我们的五大板块</h2>
         <div class="row">
           <div class="col-lg-6">
-            <a href="#">
+            <a href="notes.html">
               <div class="card zoom card-main">
                 <div class="card-body">
 
@@ -171,7 +181,8 @@
                       <p class="small-anchor">了解更多</p>
                     </div>
                     <div class="col-6">
-                      <img src="img/notebook.png" style="width:140px; height:140px; margin-left: 4rem; margin-top: 3rem;" alt="notebook">
+                      <img src="img/notebook.svg"
+                        style="width:140px; height:140px; margin-left: 4rem; margin-top: 3rem;" alt="notebook">
                     </div>
                   </div>
                 </div>
@@ -191,7 +202,8 @@
                       <p class="small-anchor">了解更多</p>
                     </div>
                     <div class="col-6">
-                      <img src="img/maskperson.png" style="width:200px;height:200px; margin-top: 35px; margin-left: 20px;" alt="maskperson">
+                      <img src="img/LXS/maskedperson.svg"
+                        style="width:200px;height:200px; margin-top: 35px; margin-left: 20px;" alt="maskperson">
                     </div>
                   </div>
                 </div>
@@ -204,51 +216,49 @@
         <!--Second row-->
         <div class="row">
           <div class="col-lg-6">
-            <a href="#">
-              <div class="card zoom card-main">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6">
-                      <h3 style="margin-top: 10px;">寻向行业</h3>
-                      <img src="img/3line.png" style="position: relative; top: -10px;" alt="line3">
-                      <p style="font-size: 1rem; margin-top: 15px;">记录与讲述留学生梦想与选择的笔记本</p>
-                      <br>
-                      <p class="small-anchor">了解更多</p>
-                    </div>
-                    <div class="col-6">
-                      <img src="img/layers.png" style="width:160px;height:160px; margin-left: 35px; margin-top: 30px;" alt="layers">
-                    </div>
+            <div class="card card-main">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <h3 style="margin-top: 10px;">寻向行业</h3>
+                    <img src="img/3line.png" style="position: relative; top: -10px;" alt="line3">
+                    <p style="font-size: 1rem; margin-top: 15px;">记录与讲述留学生梦想与选择的笔记本</p>
+                    <br>
+                    <p class="small-anchor">敬请期待</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/layers.svg" style="width:160px;height:160px; margin-left: 35px; margin-top: 30px;"
+                      alt="layers">
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div class="col-lg-6">
-            <a href="#">
-              <div class="card zoom card-main">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6">
-                      <h3 style="margin-top: 10px;">寻向职场人</h3>
-                      <img src="img/4line.png" style="position: relative; top: -10px;" alt="line4">
-                      <p style="font-size: 1rem; margin-top: 15px;">讲留学后的中国年轻职场人凝聚在一起的社区</p>
-                      <br>
-                      <p class="small-anchor">了解更多</p>
-                    </div>
-                    <div class="col-6">
-                      <img src="img/laptop.png" style="width:220px;height:150px; margin-left: 24px; margin-top: 30px;" alt="laptop">
-                    </div>
+            <div class="card card-main">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <h3 style="margin-top: 10px;">寻向职场人</h3>
+                    <img src="img/4line.png" style="position: relative; top: -10px;" alt="line4">
+                    <p style="font-size: 1rem; margin-top: 15px;">汇聚留学后年轻职场人的社区</p>
+                    <br>
+                    <p class="small-anchor">敬请期待</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/laptop.svg" style="width:220px;height:150px; margin-left: 24px; margin-top: 30px;"
+                      alt="laptop">
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
         <!--/Second row-->
         <br>
         <!--Third row-->
         <div class="row">
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <a href="#">
               <div class="card zoom card-main">
                 <div class="card-body">
@@ -267,26 +277,24 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
           <div class="col-lg-6">
-            <a href="#">
-              <div class="card zoom card-main">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-6">
-                      <h3 style="margin-top: 10px;">寻向彼岸</h3>
-                      <img src="img/6line.png" style="position: relative; top: -10px;" alt="line6">
-                      <p style="font-size: 1rem; margin-top: 15px;">连接北美留学家庭的此岸和彼岸</p>
-                      <br><br>
-                      <p class="small-anchor">了解更多</p>
-                    </div>
-                    <div class="col-6">
-                      <img src="img/lighthouse.png" style="width:300px;height:200px; margin-top: 20px;" alt="lighthouse">
-                    </div>
+            <div class="card card-main">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-6">
+                    <h3 style="margin-top: 10px;">寻向彼岸</h3>
+                    <img src="img/6line.png" style="position: relative; top: -10px;" alt="line6">
+                    <p style="font-size: 1rem; margin-top: 15px;">连接北美留学家庭的此岸和彼岸</p>
+                    <br><br>
+                    <p class="small-anchor">敬请期待</p>
+                  </div>
+                  <div class="col-6">
+                    <img src="img/lighthouse.svg" style="width:300px;height:200px; margin-top: 20px;" alt="lighthouse">
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
         <!--/Second row-->
@@ -295,16 +303,19 @@
 
   <!--Section: 数据和评价-->
   <br>
-  <section class="mt-5 wow fadeIn" id="achivements" style="background: url(img/pedal.png) no-repeat; background-size: 1200px 650px; height: 800px;">
+  <section class="mt-5 wow fadeIn" id="achivements"
+    style="background: url(img/pedal.png) no-repeat; background-size: 1200px 650px; height: 800px;">
     <div class="container">
       <div class="row">
         <div class="col-lg-6" style="margin-top: 150px;">
           <h3 style="color: #2C3A64;">这些年来，我们做了...</h3>
           <div class="container" style="color: #2C3A64; width: 440px">
             <p style="padding-top: 10px;">寻向微信公众号目前发布 <b style="font-size: 2rem;">72</b> 篇寻向笔记</p>
-            <p style="padding-top: 10px;">采访了就职于 <b style="font-size: 2rem;">43</b> 个公司中从事 <b style="font-size: 2rem;">121</b> 个不同职业的年轻职场人</p>
+            <p style="padding-top: 10px;">采访了就职于 <b style="font-size: 2rem;">43</b> 个公司中从事 <b
+                style="font-size: 2rem;">121</b> 个不同职业的年轻职场人</p>
             <p>寻向练习生社群包含 <b style="font-size: 2rem;">39</b> 名，就读于<b style="font-size: 2rem;">20</b>
-              所不同大学，<b style="font-size: 2rem;">35</b> 种不同专业的大学在校生，以及 <b style="font-size: 2rem;">15</b> 名处于各行各业顶尖公司的练习生领队</p>
+              所不同大学，<b style="font-size: 2rem;">35</b> 种不同专业的大学在校生，以及 <b style="font-size: 2rem;">15</b>
+              名处于各行各业顶尖公司的练习生领队</p>
           </div>
         </div>
         <div class="col-lg-6" style="margin-top: 150px;">
@@ -312,7 +323,7 @@
             <img src="img/aboutus/doe.png" class="avatar-img-2" alt="avatar1">
             <div class="card mx-auto card-comments" style="width: 70%;">
               <div class="card-body" style="color: white;">
-                仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。夬悢忥趼枷灟溠筤优伈峇坌昅囷沇溰屮泑毾萺。敓一枵谹寍鉠乜幙噮仈，淂屮洒堄萏鉐乇摎冘夯。
+                很幸运在大学的最后两年遇到了寻向，结识了一群非常有想法非常有规划的小伙伴，每次在聊天结束之后都会惊叹于人生的多样可能性，自己眼前的路也变得更加清晰，希望后面加入的小伙伴能够继续寻向的精神传递！
               </div>
             </div>
           </div>
@@ -326,7 +337,7 @@
           <div class="row">
             <div class="card mx-auto card-comments" style="width: 70%;">
               <div class="card-body" style="color: white;">
-                仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。夬悢忥趼枷灟溠筤优伈峇坌昅囷沇溰屮泑毾萺。敓一枵谹寍鉠乜幙噮仈，淂屮洒堄萏鉐乇摎冘夯。
+                我们常说peer pressure，但是在寻向我是真的感受到了peer help！学长学姐公益的走心的经历和资源的分享，都让我们在求职路上，多一份深入思考，多一种可能性！
               </div>
             </div>
             <img src="img/aboutus/doe.png" class="avatar-img-2" style="margin-right: 10px;" alt="avatar1">
@@ -343,7 +354,7 @@
             <img src="img/aboutus/doe.png" class="avatar-img-2" alt="avatar1">
             <div class="card mx-auto card-comments" style="width: 70%;">
               <div class="card-body" style="color: white;">
-                仂猀呧觖陏鸆楥鈺劦圪瓬杈怭穻杈趓乇抯駃鉏。夬悢忥趼枷灟溠筤优伈峇坌昅囷沇溰屮泑毾萺。敓一枵谹寍鉠乜幙噮仈，淂屮洒堄萏鉐乇摎冘夯。
+                如果你也曾迷茫过自己面前的道路，如果你想对未来的各种可能得到更多的了解，那么就加入寻向吧。在优秀的学长学姐们的指导下，在志同道合的小伙伴们的陪伴下，寻找前行的方向。
               </div>
             </div>
           </div>
@@ -555,41 +566,46 @@
       </div>
 
     </section>
-    <br>
-    <hr class="mb-5">
+    <br><br><br>
     </div>
   </main>
   <!--Main layout-->
 
   <!-- Section: 联系我们 -->
-  <section class="jumbotron" style="background-color: #6C758B;" id="contactus">
+  <section class="jumbotron-bot" style="background-color: #6C758B;" id="contactus">
     <div class="container">
       <div class="row">
         <h2 class="my-5 h2" style="color: white;">联系我们</h2>
-        <img src="img/chat.png" height="50" width="50" style="margin-top: 40px; margin-left: 40px;" alt="chat icon">
-        <a href="mailto:xunxiangweb@gmail.com"><img src="img/email.png" height="50" width="50" style="margin-top: 40px; margin-left: 20px;" alt="email icon"></a>
+        <a data-toggle="modal" data-target="#contactinfo">
+          <img src="img/chat.png" height="50" width="50" style="margin-top: 40px; margin-left: 40px;" alt="chat icon">
+        </a>
+        <a href="mailto:xunxiangweb@gmail.com"><img src="img/email.png" height="50" width="50"
+            style="margin-top: 40px; margin-left: 20px;" alt="email icon"></a>
       </div>
       <div class="row">
         <h3 style="margin-left: 20px; margin-right:50px; color: white;">合作</h3>
         <p style="width: 60%; color: white;">
-          如果你也是针对留学生的公益平台，生产对留学生个人和职业发展有极大帮助的精华内容，我们希望帮助你的平台成长，传播你的内容给更多留学生看到。</p>
+          如果你代表个人，社团，组织，或者企业，希望和寻向进行合作</p>
       </div>
       <div class="row">
-        <h3 style="margin-left: 20px; margin-right:50px; color: white;">推广</h3>
-        <p style="width: 60%; color: white;">社群致力于拥有各种背景，各种行业，各种兴趣的年轻职场人提供人脉和知识。大家彼此之间相互分享，互相赋能。</p>
+        <h3 style="margin-left: 20px; margin-right:50px; color: white;">投稿</h3>
+        <p style="width: 60%; color: white;">如果你是内容创作者，希望在寻向的平台推广你的内容让更多留学生看到</p>
       </div>
       <div class="row">
         <h3 style="margin-left: 20px; margin-right:50px; color: white;">建议</h3>
-        <p style="width: 60%; color: white;">如果你对寻向各个项目和产品有任何建议和疑问，请联系：</p>
+        <p style="width: 60%; color: white;">如果你对寻向或者寻向的某一个板块有任何想法建议，希望告诉寻向团队</p>
       </div>
-      <img src="img/logo.png" style="float: right" width=140px height=70px alt="XX logo">
+      <!-- <img src="img/logo.png" style="float: right" width=140px height=70px alt="XX logo"> -->
     </div>
   </section>
 
   <footer id="bottom" class="text-center font-small mt-4">
     <div class="py-3" style="color: #6C758B;">
       <p style="font-weight: 600;">Designed and developed by XUNXIANG</p>
-      <p>With special thanks to Yushun Chen, Mei Xia, and Wenqing Yin</p>
+      <p>With special thanks to <a href="https://yushunchen.com/" target="_blank">Yushun Chen</a>, <a
+          href="https://wenqingyin.github.io/" target="_blank">Wenqing Yin</a>, and <a href="https://meix.design/"
+          target="_blank">Mei
+          Xia</a></p>
       <p>© 2020 Copyright: <a href="#"> 寻向网站 </a></p>
     </div>
   </footer>

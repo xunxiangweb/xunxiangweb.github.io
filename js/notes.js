@@ -1,38 +1,61 @@
-var pages = ["1","2"];
-var categories = ["tech", "business"];
-var currentCat = "tech";
-function changePage(page){
-    for (let step = 0; step < pages.length; step++) {
-        if(pages[step] == page){
-            var pageShown = document.getElementById(pages[step] + currentCat);
-            pageShown.style.display = 'block';
-        }else{
-            var pageHide = document.getElementById(pages[step] + currentCat);
-            pageHide.style.display = 'none';
-        }
+let pages = [1, 2, 3, 4, 5, 6];
+let categories = [
+  "tech",
+  "finance",
+  "consulting",
+  "design/art",
+  "manufacturing",
+  "insurance",
+  "healthcare",
+  "comm",
+  "education",
+  "research",
+  "law",
+  "others",
+];
+let currentCat = "tech";
+function changePage(page) {
+  for (let i of pages) {
+    currPage = document.getElementById(`page${i}`);
+    i === page
+      ? (currPage.style.display = "block")
+      : (currPage.style.display = "none");
+      let articles = currPage.getElementsByClassName("cat");
+      for (let a of articles) {
+        a.style.display = "block"
+      }
+  }
+}
+function nextPage() {
+  for (let i of pages) {
+    if (i === pages[pages.length - 1]) break;
+    currPage = document.getElementById(`page${i}`);
+    if (currPage.style.display === "block") {
+      currPage.style.display = "none";
+      document.getElementById(`page${i + 1}`).style.display = "block";
+      break;
     }
+  }
+}
+function prevPage() {
+  for (let i of pages) {
+    if (i === pages[0]) continue;
+    currPage = document.getElementById(`page${i}`);
+    if (currPage.style.display === "block") {
+      currPage.style.display = "none";
+      document.getElementById(`page${i - 1}`).style.display = "block";
+      break;
+    }
+  }
 }
 
-function changeCat(cat){
-    currentCat = cat;
-    var pageShown = document.getElementById("1" + currentCat);
-    pageShown.style.display = 'block';
-
-    for (let c = 0; c < categories.length; c++) {
-        for (let p = 0; p < pages.length; p++) {
-            if((pages[p] + categories[c]) != ("1" + cat)){
-                var pageHide = document.getElementById(pages[p] + categories[c]);
-                pageHide.style.display = 'none';
-            }
-        }
+function changeCat(cat) {
+  for (let i of pages) {
+    currPage = document.getElementById(`page${i}`);
+    let articles = currPage.getElementsByClassName("cat");
+    for (let a of articles) {
+      a.className.includes(cat) ? a.style.display = "block" : a.style.display = "none"
     }
-}
-
-function showAll(){
-    for (let c = 0; c < categories.length; c++) {
-        for (let p = 0; p < pages.length; p++) {
-            var pageShown = document.getElementById(pages[p] + categories[c]);
-            pageShown.style.display = 'block';
-        }
-    }
+    currPage.style.display = "block"
+  }
 }
