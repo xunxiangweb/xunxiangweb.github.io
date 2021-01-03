@@ -1,0 +1,14 @@
+{% extends "IndexPage/base.html"%}
+{% load crispy_forms_tags %}
+{% block content%}
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4 ml-4">Create Post</legend>
+            {{ form|crispy }}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-infro" type="submit" style="background-color: rgb(96, 0, 134); color: antiquewhite;">Add!</button>
+        </div>
+    </form>
+{% endblock content%}

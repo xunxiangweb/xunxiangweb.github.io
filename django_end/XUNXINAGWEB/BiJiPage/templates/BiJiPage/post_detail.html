@@ -1,0 +1,11 @@
+{% extends "IndexPage/base.html"%}
+{% load static %}
+{%block title%}
+<title>寻向笔记</title>
+{%endblock title%}
+
+{%block content%}
+    <div class="media-body">
+        <embed src="{{object.content.url}}#toolbar=0" type="application/pdf" height="600rem" width="100%" />
+    </div>
+{%endblock content%}
