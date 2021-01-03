@@ -77,7 +77,7 @@ h1 {
 }
 
 .card-joinus {
-  height: 250px;
+  height: 100%;
   border-radius: 25px;
   width: 120%;
 }
@@ -172,6 +172,10 @@ img {
 /* School and Company images */
 .SCimg {
   width: 136px;
+  height: auto;
+}
+.SCimg-mp {
+  width: 120px;
   height: auto;
 }
 
@@ -287,6 +291,7 @@ img {
   margin-bottom: 30px;
 }
 .sidelinks p {
+  margin-left: -15px;
   font-size: 16px;
   font-weight: 400;
   line-height: 15px;

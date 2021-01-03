@@ -130,8 +130,28 @@
                 </div>
             </div>
             <div class="row" style="margin-left: -4px;">
-                <a type="button" class="btn button-text"
+                <a data-toggle="modal" data-target="#sunday" type="button" class="btn button-text"
                     style="background-color: white; color: black; position: relative; bottom: 5rem; border-radius: 30px;">成为分享者</a>
+                <div class="modal fade" id="sunday" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">成为分享者请联系 <i
+                                        class="fab fa-weixin mr-2"></i>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="img/notes/sundayqrcode.jpg" style="height: 500px; width: 370px;" alt="Sunday QR code">
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <a data-toggle="modal" data-target="#contactinfo" type="button" class="btn button-text"
                     style="background-color: white; color: black; position: relative; bottom: 5rem; border-radius: 30px;">阅读更多笔记</a>
             </div>
@@ -205,31 +225,30 @@
                     <div class="col-md-3">
                         <div class="row">
                             <img src="img/notes/greendot.svg" alt="dot">
-                            <h3 style="font-size: 24px; margin: 10px 0 15px 7px;">文章类型</h3>
+                            <h3 style="font-size: 24px; margin: 18px 0 15px 7px;">文章类型</h3>
                         </div>
                         <div class="sidelinks">
-                            <p><a href="#">全部</a></p>
-                            <p><a href="#">人物专访</a></p>
-                            <p><a href="#">职场面对面</a></p>
+                            <p><a class="sidelink" onclick="changePage(1); changeColor()">&nbsp;全部&nbsp;</a></p>
+                            <p><a class="sidelink" href="#">&nbsp;人物专访&nbsp;</a></p>
+                            <p><a class="sidelink" href="#">&nbsp;职场面对面&nbsp;</a></p>
                         </div>
                         <div class="row">
                             <img src="img/notes/greendot.svg" alt="dot">
-                            <h3 style="font-size: 24px; margin: 10px 0 15px 7px">行业</h3>
+                            <h3 style="font-size: 24px; margin: 18px 0 15px 7px">行业</h3>
                         </div>
                         <div class="sidelinks">
-                            <p><a onclick="changePage(1)">全部</a></p>
-                            <p><a onclick="changeCat('tech')">Technology 科技</a></p>
-                            <p><a onclick="changeCat('finance')">Financial Service 金融服务</a></p>
-                            <p><a onclick="changeCat('consulting')">Consulting 咨询</a></p>
-                            <p><a onclick="changeCat('design/art')">Design/Art 艺术与设计</a></p>
-                            <p><a onclick="changeCat('manufacturing')">Manufacturing 制造</a></p>
-                            <p><a onclick="changeCat('insurance')">Insurance 保险</a></p>
-                            <p><a onclick="changeCat('healthcare')">Healthcare 医疗</a></p>
-                            <p><a onclick="changeCat('comm')">Communications/Media 传媒</a></p>
-                            <p><a onclick="changeCat('education')">Education 教育</a></p>
-                            <p><a onclick="changeCat('research')">Research/Science 科研</a></p>
-                            <p><a onclick="changeCat('law')">Law 法律</a></p>
-                            <p><a onclick="changeCat('others')">Others 其他</a></p>
+                            <p><a class="sidelink" onclick="changeCat('tech')">&nbsp;Technology 科技&nbsp;</a></p>
+                            <p><a class="sidelink" onclick="changeCat('finance')">&nbsp;Finance 金融&nbsp;</a></p>
+                            <p><a class="sidelink" onclick="changeCat('consulting')">&nbsp;Consulting 咨询&nbsp;</a></p>
+                            <!-- <p><a onclick="changeCat('design/art')">Design/Art 艺术与设计</a></p> -->
+                            <p><a class="sidelink" onclick="changeCat('manufacturing')">&nbsp;Manufacturing 制造&nbsp;</a></p>
+                            <!-- <p><a onclick="changeCat('insurance')">Insurance 保险</a></p> -->
+                            <!-- <p><a onclick="changeCat('healthcare')">Healthcare 医疗</a></p> -->
+                            <p><a class="sidelink" onclick="changeCat('comm')">&nbsp;Communications/Media 传媒&nbsp;</a></p>
+                            <p><a class="sidelink" onclick="changeCat('education')">&nbsp;Education 教育&nbsp;</a></p>
+                            <p><a class="sidelink" onclick="changeCat('research')">&nbsp;Research/Science 科研&nbsp;</a></p>
+                            <!-- <p><a onclick="changeCat('law')">Law 法律</a></p> -->
+                            <p><a class="sidelink" onclick="changeCat('others')">&nbsp;Others 其他&nbsp;</a></p>
                         </div>
 
                     </div>
@@ -735,16 +754,16 @@
                     </div>
                 </div>
 
-                <nav>
+                <nav id="pagination">
                     <ul class="pagination justify-content-end">
-                        <li class="page-item"><a class="page-link" onclick="prevPage()">Previous</a></li>
+                        <li class="page-item"><a class="page-link" onclick="prevPage()">上一页</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(1)">1</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(2)">2</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(3)">3</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(4)">4</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(5)">5</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(6)">6</a></li>
-                        <li class="page-item"><a class="page-link" onclick="nextPage()">Next</a></li>
+                        <li class="page-item"><a class="page-link" onclick="nextPage()">下一页</a></li>
                     </ul>
                 </nav>
             </section>
@@ -866,8 +885,10 @@
         <div class="container" style="margin-bottom: 100px;">
             <h3 style="text-align: center;">了解寻向其他板块内容</h3>
             <br><br>
-            <h5 style="text-align: center;">寻向笔记 &nbsp • &nbsp 寻向行业 &nbsp • &nbsp 寻向职场人 &nbsp • &nbsp 寻向广场 &nbsp • &nbsp
-                寻向彼岸
+            <h5 style="text-align: center;"> <a href="#">寻向笔记</a> &nbsp • &nbsp <a href="lianxisheng.html">寻向练习生</a>
+                &nbsp • &nbsp <a style="color: grey">寻向行业</a> &nbsp • &nbsp <a style="color: grey;">寻向职场人</a> &nbsp •
+                &nbsp
+                <a style="color: grey;">寻向彼岸</a>
             </h5>
         </div>
     </section>
@@ -887,15 +908,15 @@
             <div class="row">
                 <h3 style="margin-left: 20px; margin-right:50px; color: white;">合作</h3>
                 <p style="width: 60%; color: white;">
-                    如果你也是针对留学生的公益平台，生产对留学生个人和职业发展有极大帮助的精华内容，我们希望帮助你的平台成长，传播你的内容给更多留学生看到。</p>
+                    如果你代表个人，社团，组织，或者企业，希望和寻向进行合作</p>
             </div>
             <div class="row">
-                <h3 style="margin-left: 20px; margin-right:50px; color: white;">推广</h3>
-                <p style="width: 60%; color: white;">社群致力于拥有各种背景，各种行业，各种兴趣的年轻职场人提供人脉和知识。大家彼此之间相互分享，互相赋能。</p>
+                <h3 style="margin-left: 20px; margin-right:50px; color: white;">投稿</h3>
+                <p style="width: 60%; color: white;">如果你是内容创作者，希望在寻向的平台推广你的内容让更多留学生看到</p>
             </div>
             <div class="row">
                 <h3 style="margin-left: 20px; margin-right:50px; color: white;">建议</h3>
-                <p style="width: 60%; color: white;">如果你对寻向各个项目和产品有任何建议和疑问，请联系：</p>
+                <p style="width: 60%; color: white;">如果你对寻向或者寻向的某一个板块有任何想法建议，希望告诉寻向团队</p>
             </div>
             <!-- <img src="img/logo.png" style="float: right" width=140px height=70px alt="XX logo"> -->
         </div>
