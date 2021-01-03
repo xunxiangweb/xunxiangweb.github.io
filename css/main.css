@@ -291,6 +291,7 @@ img {
   margin-bottom: 30px;
 }
 .sidelinks p {
+  margin-left: -15px;
   font-size: 16px;
   font-weight: 400;
   line-height: 15px;

@@ -225,31 +225,30 @@
                     <div class="col-md-3">
                         <div class="row">
                             <img src="img/notes/greendot.svg" alt="dot">
-                            <h3 style="font-size: 24px; margin: 10px 0 15px 7px;">文章类型</h3>
+                            <h3 style="font-size: 24px; margin: 18px 0 15px 7px;">文章类型</h3>
                         </div>
                         <div class="sidelinks">
-                            <p><a href="#">全部</a></p>
-                            <p><a href="#">人物专访</a></p>
-                            <p><a href="#">职场面对面</a></p>
+                            <p><a class="sidelink" onclick="changePage(1); changeColor()">&nbsp;全部&nbsp;</a></p>
+                            <p><a class="sidelink" href="#">&nbsp;人物专访&nbsp;</a></p>
+                            <p><a class="sidelink" href="#">&nbsp;职场面对面&nbsp;</a></p>
                         </div>
                         <div class="row">
                             <img src="img/notes/greendot.svg" alt="dot">
-                            <h3 style="font-size: 24px; margin: 10px 0 15px 7px">行业</h3>
+                            <h3 style="font-size: 24px; margin: 18px 0 15px 7px">行业</h3>
                         </div>
                         <div class="sidelinks">
-                            <p><a onclick="changePage(1)">全部</a></p>
-                            <p><a onclick="changeCat('tech')">Technology 科技</a></p>
-                            <p><a onclick="changeCat('finance')">Financial Service 金融服务</a></p>
-                            <p><a onclick="changeCat('consulting')">Consulting 咨询</a></p>
-                            <p><a onclick="changeCat('design/art')">Design/Art 艺术与设计</a></p>
-                            <p><a onclick="changeCat('manufacturing')">Manufacturing 制造</a></p>
-                            <p><a onclick="changeCat('insurance')">Insurance 保险</a></p>
-                            <p><a onclick="changeCat('healthcare')">Healthcare 医疗</a></p>
-                            <p><a onclick="changeCat('comm')">Communications/Media 传媒</a></p>
-                            <p><a onclick="changeCat('education')">Education 教育</a></p>
-                            <p><a onclick="changeCat('research')">Research/Science 科研</a></p>
-                            <p><a onclick="changeCat('law')">Law 法律</a></p>
-                            <p><a onclick="changeCat('others')">Others 其他</a></p>
+                            <p><a class="sidelink" onclick="changeCat('tech')">&nbsp;Technology 科技&nbsp;</a></p>
+                            <p><a class="sidelink" onclick="changeCat('finance')">&nbsp;Finance 金融&nbsp;</a></p>
+                            <p><a class="sidelink" onclick="changeCat('consulting')">&nbsp;Consulting 咨询&nbsp;</a></p>
+                            <!-- <p><a onclick="changeCat('design/art')">Design/Art 艺术与设计</a></p> -->
+                            <p><a class="sidelink" onclick="changeCat('manufacturing')">&nbsp;Manufacturing 制造&nbsp;</a></p>
+                            <!-- <p><a onclick="changeCat('insurance')">Insurance 保险</a></p> -->
+                            <!-- <p><a onclick="changeCat('healthcare')">Healthcare 医疗</a></p> -->
+                            <p><a class="sidelink" onclick="changeCat('comm')">&nbsp;Communications/Media 传媒&nbsp;</a></p>
+                            <p><a class="sidelink" onclick="changeCat('education')">&nbsp;Education 教育&nbsp;</a></p>
+                            <p><a class="sidelink" onclick="changeCat('research')">&nbsp;Research/Science 科研&nbsp;</a></p>
+                            <!-- <p><a onclick="changeCat('law')">Law 法律</a></p> -->
+                            <p><a class="sidelink" onclick="changeCat('others')">&nbsp;Others 其他&nbsp;</a></p>
                         </div>
 
                     </div>
@@ -755,16 +754,16 @@
                     </div>
                 </div>
 
-                <nav>
+                <nav id="pagination">
                     <ul class="pagination justify-content-end">
-                        <li class="page-item"><a class="page-link" onclick="prevPage()">Previous</a></li>
+                        <li class="page-item"><a class="page-link" onclick="prevPage()">上一页</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(1)">1</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(2)">2</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(3)">3</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(4)">4</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(5)">5</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(6)">6</a></li>
-                        <li class="page-item"><a class="page-link" onclick="nextPage()">Next</a></li>
+                        <li class="page-item"><a class="page-link" onclick="nextPage()">下一页</a></li>
                     </ul>
                 </nav>
             </section>
