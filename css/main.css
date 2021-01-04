@@ -331,6 +331,7 @@ footer p a {
 
 /* Small Screens */
 @media only screen and (max-width: 600px) {
+  /* Aboutus Page */
   .descDiv {
     margin-left: 50%;
   }
@@ -338,10 +339,26 @@ footer p a {
     margin-right: 10%;
     font-size: 13px;
   }
+
+  /* Joinus Page */
+  .joinusDesc {
+    margin-left: 12%;
+    margin-right: 10%;
+  }
+  .joinusBtn {
+    margin-left: 35%;
+  }
+  .contactDesc {
+    padding-right: 0;
+  }
+  .contactBtn {
+    padding-left: 35%;
+  }
 }
 
 /* Big Screens */
 @media only screen and (min-width: 601px) {
+  /* Aboutus Page */
   .descDiv {
     margin-left: 60%;
     width: 35%;
@@ -349,5 +366,13 @@ footer p a {
   .shareSolidarity {
     padding-left: 18%;
     padding-right: 18%;
+  }
+
+  /* Joinus Page  */
+  .contactDesc {
+    padding-right: 210px;
+  }
+  .contactBtn {
+    padding-left: 20px;
   }
 }
