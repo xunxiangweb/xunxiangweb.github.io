@@ -328,3 +328,26 @@ footer p a {
     font-size: 11px;
   }
 }
+
+/* Small Screens */
+@media only screen and (max-width: 600px) {
+  .descDiv {
+    margin-left: 50%;
+  }
+  .aboutusDesc {
+    margin-right: 10%;
+    font-size: 13px;
+  }
+}
+
+/* Big Screens */
+@media only screen and (min-width: 601px) {
+  .descDiv {
+    margin-left: 60%;
+    width: 35%;
+  }
+  .shareSolidarity {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+}
