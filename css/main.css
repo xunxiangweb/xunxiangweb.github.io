@@ -277,10 +277,6 @@ img {
   margin-top: 15px;
 }
 
-.post-num {
-  margin-left: 40px;
-}
-
 .new-post {
   width: 270px;
   height: 127px;
@@ -354,6 +350,21 @@ footer p a {
   .contactBtn {
     padding-left: 35%;
   }
+
+  /* Notes Page */
+  .notebook {
+    width: 150px;
+    height: 150px;
+    margin-left: 56%;
+  }
+  .leftNav {
+    margin-left: 12%;
+  }
+
+  /* Misc */
+  .contactTitle {
+    margin-left: 10%
+  }
 }
 
 /* Big Screens */
@@ -374,5 +385,17 @@ footer p a {
   }
   .contactBtn {
     padding-left: 20px;
+  }
+
+  /* Notes Page */
+  .notebook {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: -8px;
+    left: 60px;
+  }
+  .post-num {
+    margin-left: 40px;
   }
 }
