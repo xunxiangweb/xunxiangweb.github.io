@@ -327,6 +327,11 @@ footer p a {
 
 /* Small Screens */
 @media only screen and (max-width: 600px) {
+  /* LXS page */
+  .xxGuide {
+    margin-top: 40px;
+  }
+
   /* Aboutus Page */
   .descDiv {
     margin-left: 50%;
@@ -369,6 +374,11 @@ footer p a {
 
 /* Big Screens */
 @media only screen and (min-width: 601px) {
+  /* LXS page */
+  .lxsBtn {
+    margin-top: 78px;
+  }
+
   /* Aboutus Page */
   .descDiv {
     margin-left: 60%;
