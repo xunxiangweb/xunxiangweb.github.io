@@ -356,12 +356,18 @@ footer p a {
     width: 280px;
     height: 180px;
     margin-top: 20px;
-    margin-left: -45px
+    margin-left: -45px;
   }
   .small-anchor {
     color: #a4a4a4;
     font-size: 0.8rem;
     margin-top: 40%;
+  }
+  .testimony p {
+    font-size: medium;
+  }
+  .testimony p b {
+    font-size: 1.5rem;
   }
 
   /* LXS page */
@@ -454,6 +460,17 @@ footer p a {
   }
   .comingSoon {
     padding-top: 20px;
+  }
+  .testimony {
+    color: #2c3a64;
+    width: 480px;
+  }
+  .testimony p {
+    padding-top: 10px;
+    /* font-size: medium; */
+  }
+  .testimony p b {
+    font-size: 1.8rem;
   }
 
   /* LXS page */
