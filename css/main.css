@@ -165,6 +165,9 @@ img {
 }
 
 /* School and Company images */
+.logo-row {
+  margin-top: 20px;
+}
 .SCimg {
   width: 136px;
   height: auto;
