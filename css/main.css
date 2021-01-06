@@ -303,6 +303,16 @@ img {
   width: 270px;
 }
 
+.article-title {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.article-desc {
+  color: grey;
+  font-size: 16px;
+}
+
 /* Footer paragraph text */
 footer div p {
   font-size: 0.8rem;
