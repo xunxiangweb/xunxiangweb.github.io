@@ -97,4 +97,3 @@ for (let i = 0; i < companyRowNum; i++) {
   }
   companySection.append(logoRow);
 }
-console.log(companyURLs.length);
