@@ -427,26 +427,22 @@ footer p a {
   .cardBook {
     width: 140px;
     height: 140px;
-    margin-left: 4rem;
-    margin-top: 3rem;
+    margin: 3rem 0 0 4rem;
   }
   .cardPerson {
     width: 200px;
     height: 200px;
-    margin-top: 35px;
-    margin-left: 20px;
+    margin: 35px 0 0 20px;
   }
   .cardLayer {
     width: 160px;
     height: 160px;
-    margin-left: 35px;
-    margin-top: 30px;
+    margin: 30px 0 0 35px;
   }
   .cardLaptop {
     width: 220px;
     height: 150px;
-    margin-left: 24px;
-    margin-top: 30px;
+    margin: 30px 0 0 24px;
   }
   .cardHouse {
     width: 300px;
@@ -484,8 +480,7 @@ footer p a {
     width: 35%;
   }
   .shareSolidarity {
-    padding-left: 18%;
-    padding-right: 18%;
+    padding: 0 18% 0 18%;
   }
 
   /* Joinus Page  */
