@@ -40,6 +40,7 @@ const makePage = (page, articles) => {
     currPage = document.querySelector(`#${page}`)
     for (let a of articles) {
         const div = document.createElement("div")
+        // TODO: multiple classes 
         div.classList.add(a.category, "cat")
         currPage.append(div)
 
