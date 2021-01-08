@@ -270,9 +270,7 @@ img {
   padding: 10px 19px 11px 19px;
   border-width: 0px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-  color: #fff;
   border-radius: 50px;
-  margin-top: 15px;
 }
 
 .new-post {
@@ -417,6 +415,9 @@ footer p a {
   .contactBtn {
     padding-left: 35%;
   }
+  .footer-btn {
+    margin: 0 0 5% 45%;
+  }
 
   /* Notes Page */
   .notebook {
@@ -514,6 +515,9 @@ footer p a {
   }
   .contactBtn {
     padding-left: 20px;
+  }
+  .footer-btn {
+    margin: 0 0 2% 10%;
   }
 
   /* Notes Page */
