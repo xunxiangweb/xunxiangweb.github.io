@@ -382,6 +382,12 @@ footer p a {
   .testimony p b {
     font-size: 1.5rem;
   }
+  .first-comment {
+    margin-bottom: 20%;
+  }
+  .last-comment {
+    margin-top: 10%;
+  }
 
   /* LXS page */
   .xxGuide {
@@ -480,6 +486,12 @@ footer p a {
   }
   .testimony p b {
     font-size: 1.8rem;
+  }
+  .middle-comment {
+    margin-top: 70%;
+  }
+  .last-comment {
+    margin-top: 40%;
   }
 
   /* LXS page */
