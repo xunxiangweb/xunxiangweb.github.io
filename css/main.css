@@ -519,6 +519,9 @@ footer p a {
   .footer-btn {
     margin: 0 0 2% 10%;
   }
+  .contactus-text {
+    margin-top: 8px;
+  }
 
   /* Notes Page */
   .notebook {
