@@ -400,6 +400,9 @@ footer p a {
     margin-right: 10%;
     font-size: 13px;
   }
+  .aboutus-comment {
+    margin-bottom: 20px;
+  }
 
   /* Joinus Page */
   .joinusDesc {
@@ -507,6 +510,12 @@ footer p a {
   }
   .shareSolidarity {
     padding: 0 18% 0 18%;
+  }
+  .aboutus-comment {
+    width: 80%;
+  }
+  .aboutus-mid-comment {
+    margin-left: 20%;
   }
 
   /* Joinus Page  */
