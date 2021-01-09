@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E64Z25ZNTH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-E64Z25ZNTH');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -227,9 +236,13 @@
                             <h3 style="font-size: 24px; margin: 18px 0 15px 7px;">文章类型</h3>
                         </div>
                         <div class="sidelinks">
-                            <p><a id="all" class="sidelink" onclick="changePage(1); changeColor('all')">&nbsp;全部&nbsp;</a></p>
-                            <p><a id="interviews" class="sidelink" onclick="changeInterviews(); changeColor('interviews')">&nbsp;人物专访&nbsp;</a></p>
-                            <p><a id="mianduimian" class="sidelink" onclick="changeCat('facetoface'); changeColor('mianduimian')">&nbsp;职场面对面&nbsp;</a></p>
+                            <p><a id="all" class="sidelink"
+                                    onclick="changePage(1); changeColor('all')">&nbsp;全部&nbsp;</a></p>
+                            <p><a id="interviews" class="sidelink"
+                                    onclick="changeInterviews(); changeColor('interviews')">&nbsp;人物专访&nbsp;</a></p>
+                            <p><a id="mianduimian" class="sidelink"
+                                    onclick="changeCat('facetoface'); changeColor('mianduimian')">&nbsp;职场面对面&nbsp;</a>
+                            </p>
                         </div>
                         <div class="row">
                             <img src="img/notes/greendot.svg" alt="dot">
@@ -270,7 +283,8 @@
                 <nav id="pagination">
                     <ul class="pagination justify-content-end">
                         <li class="page-item"><a class="page-link" onclick="prevPage()">上一页</a></li>
-                        <li class="page-item"><a class="page-link" onclick="changePage(1); changeColor('all')">1</a></li>
+                        <li class="page-item"><a class="page-link" onclick="changePage(1); changeColor('all')">1</a>
+                        </li>
                         <li class="page-item"><a class="page-link" onclick="changePage(2)">2</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(3)">3</a></li>
                         <li class="page-item"><a class="page-link" onclick="changePage(4)">4</a></li>
