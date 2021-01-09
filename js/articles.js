@@ -256,6 +256,34 @@ const pageSixArticles = [
   },
 ];
 
+// AKA 职场面对面
+const pageSevenArticles = [
+  {
+    title: "Tech Consulting从业七年，这些是她最想说的话",
+    desc:
+      "德勤咨询公司（Deloitte Consulting）是全球最大的咨询公司之一，总部位于美国纽约，原为德勤集团主管咨询业务的子公司......",
+    link: "https://mp.weixin.qq.com/s/bw00wkb78gAQbsEV9Ee_MA",
+    img: "img/notes/articles/31.jpeg",
+    category: "facetoface",
+  },
+  {
+    title: "在市值170亿的教育公司当管培生是一种什么体验？",
+    desc:
+      "管培生, 全称管理培训生, 英文名称Management Trainee, 是国内外企业以”培养公司未来领导者”为目标的人才储备项目, 主要面向应届毕业生及毕业三年内的年轻人......",
+    link: "https://mp.weixin.qq.com/s/KD79DExFfiST3wSf_-r7sg",
+    img: "img/notes/articles/32.jpeg",
+    category: "facetoface",
+  },
+  {
+    title: "那些进微软前他没想到的事",
+    desc:
+      "我就是大家所说的“码农”。我的岗位名称就是Software Engineer（软件工程师）。其实很难说这个岗位具体做什么，因为每个公司、甚至一个团队当中每一个人，做的事情都大相径庭......",
+    link: "https://mp.weixin.qq.com/s/SN6-VcdekRi7PytX4S9FZQ",
+    img: "img/notes/articles/33.jpeg",
+    category: "facetoface",
+  },
+];
+
 const makePage = (page, articles) => {
   currPage = document.querySelector(`#${page}`);
   for (let a of articles) {
@@ -308,3 +336,4 @@ makePage("page3", pageThreeArticles);
 makePage("page4", pageFourArticles);
 makePage("page5", pageFiveArticles);
 makePage("page6", pageSixArticles);
+makePage("page7", pageSevenArticles);
