@@ -16,7 +16,7 @@ const pageOneArticles = [
     category: "consulting",
   },
   {
-    title: "在求职与旅行的道路上，赤字之心永不缺席",
+    title: "在求职与旅行的道路上，赤子之心永不缺席",
     desc:
       "众所周知，在求职咨询的时候，networking是非常重要的一项技能。对于这点，学姐建议多多利用学校资源，联系校友，尤其是背景相同的校友......",
     link: "https://mp.weixin.qq.com/s/_R__AwXaaT3MiI8ruqaglA",

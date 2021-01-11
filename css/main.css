@@ -374,11 +374,17 @@ footer p a {
     font-size: 0.8rem;
     margin-top: 40%;
   }
+  .testimony {
+    margin-left: -20px;
+  }
   .testimony p {
     font-size: medium;
   }
   .testimony p b {
     font-size: 1.5rem;
+  }
+  .testimony strong {
+    font-weight: bold;
   }
   .first-comment {
     margin-bottom: 20%;
@@ -483,6 +489,7 @@ footer p a {
   .testimony {
     color: #2c3a64;
     width: 480px;
+    margin-left: -20px;
   }
   .testimony p {
     padding-top: 10px;
@@ -490,6 +497,9 @@ footer p a {
   }
   .testimony p b {
     font-size: 1.8rem;
+  }
+  .testimony strong {
+    font-weight: bold;
   }
   .middle-comment {
     margin-top: 70%;
