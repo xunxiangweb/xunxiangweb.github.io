@@ -79,7 +79,6 @@ h1 {
 .card-main {
   height: 250px;
   border-radius: 25px;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 .card-joinus {
@@ -92,6 +91,7 @@ h1 {
 .zoom {
   transition: transform 0.2s;
   color: black;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 .zoom:hover {
