@@ -4,7 +4,7 @@ const schoolURLs = [
   "img/LXS/school/BC.png",
   "img/LXS/school/BU.png",
   "img/LXS/school/CMU.png",
-  "img/LXS/school/CMC.png",
+  "img/LXS/school/CMC.jpg",
   "img/LXS/school/Cornell.png",
   "img/LXS/school/Emerson.png",
   "img/LXS/school/Emory.png",
@@ -22,7 +22,7 @@ const schoolURLs = [
   "img/LXS/school/UPenn.png",
   "img/LXS/school/USC.png",
   "img/LXS/school/UW-Madison.png",
-  "img/LXS/school/Villanova.png",
+  "img/LXS/school/Villanova.jpg",
   "img/LXS/school/Wesleyan.png",
 ];
 
