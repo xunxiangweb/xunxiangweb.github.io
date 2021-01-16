@@ -73,6 +73,7 @@ h1 {
 
 .card-comments {
   background-color: #6c758b;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 .card-main {
@@ -90,6 +91,7 @@ h1 {
 .zoom {
   transition: transform 0.2s;
   color: black;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 .zoom:hover {
