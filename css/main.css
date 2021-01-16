@@ -506,6 +506,7 @@ footer p a {
   }
   .testimony p b {
     font-size: 1.8rem;
+    font-weight: bold;
   }
   .testimony strong {
     font-weight: bold;
