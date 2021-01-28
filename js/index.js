@@ -16,7 +16,7 @@ const schoolURLs = [
   "img/LXS/school/TuftsU.jpg",
   "img/LXS/school/Tulane.png",
   "img/LXS/school/UCB.png",
-  "img/LXS/school/mainpage/UCSD.png",
+  "img/LXS/school/mainpage/ucsb.jpg",
   "img/LXS/school/UNC.png",
   "img/LXS/school/UChicago.png",
   "img/LXS/school/UGeorgia.png",
