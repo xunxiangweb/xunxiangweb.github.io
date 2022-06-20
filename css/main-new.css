@@ -159,6 +159,11 @@ body {
 .navbar-nav .nav-item .nav-link {
   color: #fff;
   transition: 0.35s;
+  margin: 1.5rem;
+}
+
+.nav-item {
+  /* margin-right: 20%; */
 }
 
 .mySlides1,
