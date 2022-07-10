@@ -106,5 +106,21 @@ img {
   border-radius: 27px;
   background-color: #4368FB;
   text-align: left;
-  margin-top: 0;
+  margin-top: 1%;
+}
+
+/* Main page 3 */
+.m3-num-col {
+  text-align: center;
+}
+.m3-num {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Judson';
+}
+.m3-num-text {
+  color: white;
+  font-size: 1rem;
+  font-family: 'Judson';
+  margin: -5% 25% 0 25%;
 }
