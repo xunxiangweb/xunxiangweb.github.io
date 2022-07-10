@@ -39,7 +39,8 @@ nav {
 
 /* For typing effect */
 h1 {
-  font-family: "mainfont-medium";
+  font-family: "Judson";
+  color: "white";
   text-align: left;
   padding-top: 7rem;
   font-size: 6rem;
@@ -50,7 +51,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "mainfont-medium";
+  color: "white";
+  font-family: "Judson";
 }
 
 .jumbotron {
