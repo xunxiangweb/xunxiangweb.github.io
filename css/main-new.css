@@ -130,5 +130,19 @@ img {
   text-align: left;
   font-size: 40px;
   font-family: 'Judson';
-  padding-top: 10%;
+  padding-top: 13%;
 }
+
+.m3-card {
+  border-radius: 20px;
+  height: 25rem;
+}
+
+.m3-card-img {
+  background-color: #9BAFFF; 
+  transform: scale(1.01); 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 10rem;
+}
+
