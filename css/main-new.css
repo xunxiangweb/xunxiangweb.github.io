@@ -75,7 +75,7 @@ body {
 .navbar-nav .nav-item .nav-link {
   color: #fff;
   transition: 0.35s;
-  margin: 1.5rem;
+  margin: 1rem;
 }
 
 img {
@@ -109,18 +109,26 @@ img {
   margin-top: 1%;
 }
 
-/* Main page 3 */
-.m3-num-col {
+.m2-num-col {
   text-align: center;
 }
-.m3-num {
+.m2-num {
   color: white;
   font-size: 3rem;
   font-family: 'Judson';
 }
-.m3-num-text {
+.m2-num-text {
   color: white;
   font-size: 1rem;
   font-family: 'Judson';
   margin: -5% 25% 0 25%;
+}
+
+/* Main page 3 */
+.m3-title-text {
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Judson';
+  padding-top: 10%;
 }
