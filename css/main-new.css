@@ -125,6 +125,11 @@ img {
 }
 
 /* Main page 3 */
+.m3-card {
+  border-radius: 20px;
+  height: 25rem;
+  width: 17rem;
+}
 .m3-title-text {
   color: white;
   text-align: left;
@@ -132,12 +137,6 @@ img {
   font-family: 'Judson';
   padding-top: 13%;
 }
-
-.m3-card {
-  border-radius: 20px;
-  height: 25rem;
-}
-
 .m3-card-img {
   background-color: #9BAFFF; 
   transform: scale(1.01); 
@@ -145,4 +144,23 @@ img {
   border-top-right-radius: 20px;
   height: 10rem;
 }
+.m3-card-title {
+  color: #192E83;
+}
+.m3-card-text {
+  color: #192E83;
+}
 
+/* Main page 3 */
+.m4-card {
+  border-radius: 20px;
+  height: 11rem;
+  width: 34rem;
+}
+.m4-card-text {
+  color: #192E83;
+  padding-top: 4%;
+}
+.m4-card-avatar {
+  margin-top: 2rem;
+}
